@@ -1,0 +1,31 @@
+{
+  "request_id": "test-001",
+  "timestamp": "2026-01-02T10:00:00Z",
+  "depot": {
+    "id": "SCTP_01",
+    "lat": 17.385,
+    "lng": 78.4867
+  },
+  "gvps": [
+    {
+      "id": "GVP_02",
+      "lat": 17.39,
+      "lng": 78.49,
+      "waste": 450,
+      "status": "pending"
+    }
+  ],
+  "trucks": [
+    {
+      "truck_id": 1,
+      "capacity": 1500,
+      "current_lat": 17.385,
+      "current_lng": 78.4867,
+      "status": "active"
+    }
+  ],
+  "service_time_minutes": {
+    "default": 25
+  },
+  "routing_type": "reroute"
+}
