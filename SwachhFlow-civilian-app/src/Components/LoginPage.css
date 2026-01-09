@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  background: #f7f3f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Top Section */
+.top-card {
+  width: 100%;
+  height: 190px;
+  background: linear-gradient(180deg, #0d4fa3, #0a3d82);
+  padding: 90px 20px 60px;
+  text-align: center;
+  color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.top-card h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.top-card p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Login Card */
+.login-card {
+  background: white;
+  width: 90%;
+  max-width: 350px;
+  margin-top: 150px;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px  10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-title {
+  color: #ff6b3d;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Input */
+.input-box {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(180deg, #0d4fa3, #0a3d82);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
+}
+.ghmc-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 6px;
+
+  position: relative;
+  top: -45px;     
+}
+
