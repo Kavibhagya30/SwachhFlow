@@ -1,0 +1,30 @@
+{
+  "request_id": "string",
+  "generated_at": "ISO-8601",
+  "routes": [
+    {
+      "route_id": "uuid",
+      "truck_id": 0,
+      "version": 2,
+      "status": "active | inactive",
+      "route": [
+        {
+          "point_id": "SCTP_01",
+          "lat": 17.3850,
+          "lng": 78.4867
+        },
+        {
+          "point_id": "GVP_12",
+          "lat": 17.3921,
+          "lng": 78.4923
+        },
+        {
+          "point_id": "SCTP_01",
+          "lat": 17.3850,
+          "lng": 78.4867
+        }
+      ],
+      "estimated_time_minutes": 94
+    }
+  ]
+}

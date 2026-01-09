@@ -1,0 +1,6842 @@
+[
+  {
+    "truck_id": "T0",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Nagole"
+      },
+      {
+        "type": "GVP",
+        "id": "Kamal Nagar entrance"
+      },
+      {
+        "type": "GVP",
+        "id": "Chadharghat PS"
+      },
+      {
+        "type": "GVP",
+        "id": "MDA vidyalaya Akberbagh"
+      },
+      {
+        "type": "GVP",
+        "id": "Chicken Paltan"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T1",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Devender Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Azampura Ward Office opposite"
+      },
+      {
+        "type": "GVP",
+        "id": "beside Hanuman Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Jatpatnagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Labour adda Dabeerpura"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T2",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Mallapur"
+      },
+      {
+        "type": "GVP",
+        "id": "BiBi Cancer Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Chanchalguda Jail"
+      },
+      {
+        "type": "GVP",
+        "id": "Azampura C Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Mote masjid"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T3",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Saket"
+      },
+      {
+        "type": "GVP",
+        "id": "Matha Kidki"
+      },
+      {
+        "type": "GVP",
+        "id": "Sucess School"
+      },
+      {
+        "type": "GVP",
+        "id": "Dabirpura Bridge"
+      },
+      {
+        "type": "GVP",
+        "id": "Rasheeda Function Hall"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T4",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Auto Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "3 Temple Chatri Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Reverse Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Bibi Ka alava"
+      },
+      {
+        "type": "GVP",
+        "id": "Fancy Ice Cream Pt"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T5",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Hasthinapuram"
+      },
+      {
+        "type": "GVP",
+        "id": "RTC Kaman Near Water Tank APSRTC Colony Champapet CH 209"
+      },
+      {
+        "type": "GVP",
+        "id": "Petrol Pump Saraswati Nagar Singareni Colony CH 213"
+      },
+      {
+        "type": "GVP",
+        "id": "Basti Dawakhana Madanapet"
+      },
+      {
+        "type": "GVP",
+        "id": "Madanapet Old Ps Ch 185"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T6",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "IBT"
+      },
+      {
+        "type": "GVP",
+        "id": "Shishu Mandir School Back Side CH 178"
+      },
+      {
+        "type": "GVP",
+        "id": "Mekala Mandi CH 180"
+      },
+      {
+        "type": "GVP",
+        "id": "Crida Main Road Second Point Ch 737"
+      },
+      {
+        "type": "GVP",
+        "id": "Bandnaka Point Ch 221"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T7",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Kattedan"
+      },
+      {
+        "type": "GVP",
+        "id": "Murtuja Chaman Ground Ch 145"
+      },
+      {
+        "type": "GVP",
+        "id": "Chunne Ki Bhatti CH 139"
+      },
+      {
+        "type": "GVP",
+        "id": "Sulthan Shai CH 176"
+      },
+      {
+        "type": "GVP",
+        "id": "Shishu Mandir School Front Side CH 177"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T8",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Mir Alam Tank"
+      },
+      {
+        "type": "GVP",
+        "id": "FALAKNUMA PS OPP"
+      },
+      {
+        "type": "GVP",
+        "id": "FALUKNAMA CURRENT OFFICE"
+      },
+      {
+        "type": "GVP",
+        "id": "Falaknuma Railway Station Point"
+      },
+      {
+        "type": "GVP",
+        "id": "KHADRI CHAMAN DARGA"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T9",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Bandlaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "SADATH NAGAR POINT"
+      },
+      {
+        "type": "GVP",
+        "id": "ARUNDATHI COLONY BRIDGE"
+      },
+      {
+        "type": "GVP",
+        "id": "SHIVAJINAGAR SMALL BRIDGE"
+      },
+      {
+        "type": "GVP",
+        "id": "SHIVAJI STATUE NEAR SHIVALAYAM"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T10",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Ziyaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "RAJEEV GRAVEYARD"
+      },
+      {
+        "type": "GVP",
+        "id": "DASTAGIRI NAGAR SCRAP POINT"
+      },
+      {
+        "type": "GVP",
+        "id": "STATION ROAD"
+      },
+      {
+        "type": "GVP",
+        "id": "MAHANKALI TEMPLE UPPUGUDA"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T11",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Jubilee Hills Road No 51"
+      },
+      {
+        "type": "GVP",
+        "id": "Safil Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Near PS"
+      },
+      {
+        "type": "GVP",
+        "id": "Miralam Mandi Dargha Point"
+      },
+      {
+        "type": "GVP",
+        "id": "RELIANCE MARKET CHANDRAYNAGUTTA X ROADS"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T12",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Peoples Plaza"
+      },
+      {
+        "type": "GVP",
+        "id": "Shah Gunj Ward Office"
+      },
+      {
+        "type": "GVP",
+        "id": "Talabkatta Main road"
+      },
+      {
+        "type": "GVP",
+        "id": "Bodhki Bi Durga"
+      },
+      {
+        "type": "GVP",
+        "id": "Hussaini Mahila"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T13",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Sanath Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Metharwadi Ujalashaw Masjith"
+      },
+      {
+        "type": "GVP",
+        "id": "Badam Masjid Mogalpura"
+      },
+      {
+        "type": "GVP",
+        "id": "Mitti Ka Sher"
+      },
+      {
+        "type": "GVP",
+        "id": "Dairagalli"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T14",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Chacha Nehuru Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Beside Maheshwari school"
+      },
+      {
+        "type": "GVP",
+        "id": "Charminar Depo"
+      },
+      {
+        "type": "GVP",
+        "id": "Aasha talkis"
+      },
+      {
+        "type": "GVP",
+        "id": "Fire Station"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T15",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Lalapet Flyover"
+      },
+      {
+        "type": "GVP",
+        "id": "Pochamma Dabba"
+      },
+      {
+        "type": "GVP",
+        "id": "mahalaxmi temple jalal kulcha"
+      },
+      {
+        "type": "GVP",
+        "id": "Khilwat House Kundi"
+      },
+      {
+        "type": "GVP",
+        "id": "Poolbagh"
+      }
+    ],
+    "estimated_time": 88
+  },
+  {
+    "truck_id": "T16",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Jalagam Vengal Rao Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Lal Darwaza Shivalayam"
+      },
+      {
+        "type": "GVP",
+        "id": "Yakutpura Filter Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Biryani Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Deewan Dewdi"
+      },
+      {
+        "type": "GVP",
+        "id": "SIRI Garden Function Hall Main Rd"
+      },
+      {
+        "type": "GVP",
+        "id": "Nagarjuna Nagar Colony Old Bulding"
+      },
+      {
+        "type": "GVP",
+        "id": "Peddha Cherlapally Bus Stop"
+      },
+      {
+        "type": "GVP",
+        "id": "Post Office (SBI Bank)"
+      },
+      {
+        "type": "GVP",
+        "id": "Hanuman Temple Back Side (Vijayapuri colony)"
+      },
+      {
+        "type": "GVP",
+        "id": "Valval Nagar Colony Church"
+      },
+      {
+        "type": "GVP",
+        "id": "Vampuguda Graveyard"
+      }
+    ],
+    "estimated_time": 242
+  },
+  {
+    "truck_id": "T17",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Singareni Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Opp Safina Hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "Baring Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Alpha Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Mukkram Jah"
+      },
+      {
+        "type": "GVP",
+        "id": "HMT nagar "
+      },
+      {
+        "type": "GVP",
+        "id": "Nacharam Kallu Compound"
+      },
+      {
+        "type": "GVP",
+        "id": "Nayara petrol bunk "
+      },
+      {
+        "type": "GVP",
+        "id": "Rythu Bazar Near Shanti Gardens"
+      },
+      {
+        "type": "GVP",
+        "id": "Surya nagra railway track"
+      },
+      {
+        "type": "GVP",
+        "id": "Gokul Nagar FCI Gowdowam"
+      },
+      {
+        "type": "GVP",
+        "id": "SC Colony Community Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "mallapur chuurch"
+      },
+      {
+        "type": "GVP",
+        "id": "pedda cherlapalli masjidi"
+      },
+      {
+        "type": "GVP",
+        "id": "Chekripuram Near Lalita Sai Wines"
+      },
+      {
+        "type": "GVP",
+        "id": "Nagarjurna nagar old bulding "
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T18",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Nagole"
+      },
+      {
+        "type": "GVP",
+        "id": "Hussaini Mahila"
+      },
+      {
+        "type": "GVP",
+        "id": "Murgi Chowk"
+      },
+      {
+        "type": "GVP",
+        "id": "Fateh Darwaza X Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Opp Grand Haider Cafe"
+      },
+      {
+        "type": "GVP",
+        "id": "Srinivasapuram Rd No 3"
+      },
+      {
+        "type": "GVP",
+        "id": "Corporation Opp HDFC ATM"
+      },
+      {
+        "type": "GVP",
+        "id": "Sri Raghavendra Swamy Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Street No.1 Sai Baba Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Street No.1 Kakatiya Nagar Ramalayam"
+      },
+      {
+        "type": "GVP",
+        "id": "Laxmi Nagar Colony Hanuman Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "LFJC SCHOOL"
+      },
+      {
+        "type": "GVP",
+        "id": "Adarsh Nagar Opp.Hp Bunk"
+      },
+      {
+        "type": "GVP",
+        "id": "GHMC Rs5 Food"
+      },
+      {
+        "type": "GVP",
+        "id": "Berrappagadda Uppal Amma Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "ESI Opposite galli"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T19",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Devender Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Yousuf Bazar"
+      },
+      {
+        "type": "GVP",
+        "id": "Badam Masjid Mogalpura"
+      },
+      {
+        "type": "GVP",
+        "id": "Ashok Pillar"
+      },
+      {
+        "type": "GVP",
+        "id": "Bodhki Bi Durga"
+      },
+      {
+        "type": "GVP",
+        "id": "Nalla Cheruv Uppal"
+      },
+      {
+        "type": "GVP",
+        "id": "Devendra Nagar Rd"
+      },
+      {
+        "type": "GVP",
+        "id": "Ice Cream Factory"
+      },
+      {
+        "type": "GVP",
+        "id": "Gokul Nagar Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Rajaka Sangam"
+      },
+      {
+        "type": "GVP",
+        "id": "Bheesma Colony Sharada Nagar RD"
+      },
+      {
+        "type": "GVP",
+        "id": "Ram Reddy Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Yellamma Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "TV Colony Saichitra"
+      },
+      {
+        "type": "GVP",
+        "id": "Tennis Court ,Street No:4"
+      },
+      {
+        "type": "GVP",
+        "id": "Kotak Bank Opp"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T20",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Mallapur"
+      },
+      {
+        "type": "GVP",
+        "id": "Gas Company Falaknuma Palace Back Side "
+      },
+      {
+        "type": "GVP",
+        "id": "Falaknuma Railway Track "
+      },
+      {
+        "type": "GVP",
+        "id": "Labour Adda Ghansi Bazar"
+      },
+      {
+        "type": "GVP",
+        "id": "Blind School"
+      },
+      {
+        "type": "GVP",
+        "id": "Gouda Sangam Nagole"
+      },
+      {
+        "type": "GVP",
+        "id": "Aurnodaya Colony Rd No 7"
+      },
+      {
+        "type": "GVP",
+        "id": "Krishna Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Merry Matha"
+      },
+      {
+        "type": "GVP",
+        "id": "Royal Enfield"
+      },
+      {
+        "type": "GVP",
+        "id": "Krishna Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "UPPAL Vegetable Market"
+      },
+      {
+        "type": "GVP",
+        "id": "Auto Stand"
+      },
+      {
+        "type": "GVP",
+        "id": "Mahakali Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Hanuman Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Rankers School"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T21",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Saket"
+      },
+      {
+        "type": "GVP",
+        "id": "Grave yard Nawab Saheb Kunta "
+      },
+      {
+        "type": "GVP",
+        "id": "SK Garden"
+      },
+      {
+        "type": "GVP",
+        "id": "Sania Hotel Back Side_C10"
+      },
+      {
+        "type": "GVP",
+        "id": "Shamsher Gunj Main Road "
+      },
+      {
+        "type": "GVP",
+        "id": "M E Reddy Function Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Bandla Guda Mahila Bhavan"
+      },
+      {
+        "type": "GVP",
+        "id": "Jai Puri Colony Chowrasta"
+      },
+      {
+        "type": "GVP",
+        "id": "Anand nagar 2BHK beside"
+      },
+      {
+        "type": "GVP",
+        "id": "Anand nagar road no 4"
+      },
+      {
+        "type": "GVP",
+        "id": "Krushi nagar colony Akshara school road"
+      },
+      {
+        "type": "GVP",
+        "id": "GSI Gate opp"
+      },
+      {
+        "type": "GVP",
+        "id": "GSI road Govt School opp"
+      },
+      {
+        "type": "GVP",
+        "id": "GSI Road Reddy Tiffin Center"
+      },
+      {
+        "type": "GVP",
+        "id": "Fathulguda Dump Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Nagole Lake near Shubham"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T22",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Auto Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Old RTO Office-Murali Manohar temple "
+      },
+      {
+        "type": "GVP",
+        "id": "Current Office Point "
+      },
+      {
+        "type": "GVP",
+        "id": "Moinpura Tank "
+      },
+      {
+        "type": "GVP",
+        "id": "Amjad ullah Bagh "
+      },
+      {
+        "type": "GVP",
+        "id": "Raghavendra Colony Hayat Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "BDL Colony Petrol Pump lane"
+      },
+      {
+        "type": "GVP",
+        "id": "Subhadra Nagar Road No 2"
+      },
+      {
+        "type": "GVP",
+        "id": "Sitara Hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "Sarvodaya Colony, Indian Oil Beside"
+      },
+      {
+        "type": "GVP",
+        "id": "Ganesh Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Mallikarjuna Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Agamaiah Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Oil Mill"
+      },
+      {
+        "type": "GVP",
+        "id": "Beside Water Plant"
+      },
+      {
+        "type": "GVP",
+        "id": "Balaji Nagar"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T23",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Hasthinapuram"
+      },
+      {
+        "type": "GVP",
+        "id": "Madina hotel Gali"
+      },
+      {
+        "type": "GVP",
+        "id": "Housing Colony "
+      },
+      {
+        "type": "GVP",
+        "id": "Nagina Hotel "
+      },
+      {
+        "type": "GVP",
+        "id": "Kishan Bagh Park "
+      },
+      {
+        "type": "GVP",
+        "id": "Kappala cheruvu "
+      },
+      {
+        "type": "GVP",
+        "id": "Jodibavi "
+      },
+      {
+        "type": "GVP",
+        "id": "Sama Nagar Rd Govt Hostel Beside"
+      },
+      {
+        "type": "GVP",
+        "id": "Kamala Nagar Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Dwarakamai Nagar, Sai baba temple line opp"
+      },
+      {
+        "type": "GVP",
+        "id": "Banjara Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Gayathrinagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Kummari Kunta"
+      },
+      {
+        "type": "GVP",
+        "id": "Gowri Shankar House"
+      },
+      {
+        "type": "GVP",
+        "id": "Padmavati Colony Hayat Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Bus Depot Road"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T24",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "IBT"
+      },
+      {
+        "type": "GVP",
+        "id": "Indian  Bank point"
+      },
+      {
+        "type": "GVP",
+        "id": "Amjad ullah Bagh"
+      },
+      {
+        "type": "GVP",
+        "id": "Masoodia Masjid "
+      },
+      {
+        "type": "GVP",
+        "id": "NM Guda_C10"
+      },
+      {
+        "type": "GVP",
+        "id": "Saraswathi Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Surya Nagar Main Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Andharakesarinagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Gayathrinagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Kummari Kunta"
+      },
+      {
+        "type": "GVP",
+        "id": "Padmavati Colony Hayat Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Raghavendra Colony Hayat Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "High Court Colony Community Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Subhadra Nagar Road No 2"
+      },
+      {
+        "type": "GVP",
+        "id": "Saheb Nagar grave yard"
+      },
+      {
+        "type": "GVP",
+        "id": "Gowthami Nagar"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T25",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Kattedan"
+      },
+      {
+        "type": "GVP",
+        "id": "Pochamma Temple Doodbowli"
+      },
+      {
+        "type": "GVP",
+        "id": "Police Quaters Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Murali Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Srinivasa Galli Bahadurpura Police Station Back Side"
+      },
+      {
+        "type": "GVP",
+        "id": "Gopala Krishna puri colony road no 1"
+      },
+      {
+        "type": "GVP",
+        "id": "Anand nagar road no 4"
+      },
+      {
+        "type": "GVP",
+        "id": "Krushi nagar colony Akshara school road"
+      },
+      {
+        "type": "GVP",
+        "id": "Bandla Guda Mahila Bhavan"
+      },
+      {
+        "type": "GVP",
+        "id": "Gouda Sangam Nagole"
+      },
+      {
+        "type": "GVP",
+        "id": "Mamatha Nagar Beside Nagole Nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Nagole X Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Modal Dairy"
+      },
+      {
+        "type": "GVP",
+        "id": "M E Reddy Function Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Sarvodaya Colony, Indian Oil Beside"
+      },
+      {
+        "type": "GVP",
+        "id": "Suryodaya colony road no 5"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T26",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Mir Alam Tank"
+      },
+      {
+        "type": "GVP",
+        "id": "Sania Hotel Back Side_C10"
+      },
+      {
+        "type": "GVP",
+        "id": "Macca Function Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Gandhi Ka Putla"
+      },
+      {
+        "type": "GVP",
+        "id": "Ram Mandir"
+      },
+      {
+        "type": "GVP",
+        "id": "Mirchi Kanta"
+      },
+      {
+        "type": "GVP",
+        "id": "Tapovan Colony Cheruvukatta"
+      },
+      {
+        "type": "GVP",
+        "id": "Laxmi Narayana Bhavan CM Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Sagar Ring Road Sulab Complex Line"
+      },
+      {
+        "type": "GVP",
+        "id": "Sabbula Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Gunti Jangaiah Colony Gravy Yard"
+      },
+      {
+        "type": "GVP",
+        "id": "Hp Petrol Pump Beside"
+      },
+      {
+        "type": "GVP",
+        "id": "Chintalkunta Dcm Adda"
+      },
+      {
+        "type": "GVP",
+        "id": "POchamma Temple Beside CC Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Opp Mega Function Hall Downside"
+      },
+      {
+        "type": "GVP",
+        "id": "KBR Function Hall"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T27",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Bandlaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Boston School"
+      },
+      {
+        "type": "GVP",
+        "id": "Lancer Kaman"
+      },
+      {
+        "type": "GVP",
+        "id": "Kummarwadi Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Sadaam Colony Near Ground"
+      },
+      {
+        "type": "GVP",
+        "id": "HARIPURI COLONY ROAD NO-1"
+      },
+      {
+        "type": "GVP",
+        "id": "HARIPURI COLONY PARK ROAD NO-3"
+      },
+      {
+        "type": "GVP",
+        "id": "SOWBHGYAPURAM COLONY"
+      },
+      {
+        "type": "GVP",
+        "id": "Karnataka Bank"
+      },
+      {
+        "type": "GVP",
+        "id": "New Nagole Road No1"
+      },
+      {
+        "type": "GVP",
+        "id": "Prajay Niwas Phase-2"
+      },
+      {
+        "type": "GVP",
+        "id": "Uday Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Pochamma Gadda"
+      },
+      {
+        "type": "GVP",
+        "id": "Chinta Chettu Reddy Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "DPS school"
+      },
+      {
+        "type": "GVP",
+        "id": "Kranthi Nagar"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T28",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Ziyaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Kalukmpond Budwell"
+      },
+      {
+        "type": "GVP",
+        "id": "Kishan Bagh Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Masoodia Masjid"
+      },
+      {
+        "type": "GVP",
+        "id": "Nagina Hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "Kodadam Ram Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "KALLU COMPUND"
+      },
+      {
+        "type": "GVP",
+        "id": "Red Cross Road Mythri Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Krishna Nagar Grave Yard"
+      },
+      {
+        "type": "GVP",
+        "id": "VRK SILKS REDDY BROTHER S LANE"
+      },
+      {
+        "type": "GVP",
+        "id": "Fruit Market Chaitanya Puri"
+      },
+      {
+        "type": "GVP",
+        "id": "Vikas Nagar Colony Right Side Nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Dwaraka Puram Main Road 5A"
+      },
+      {
+        "type": "GVP",
+        "id": "Boys Hostel C5"
+      },
+      {
+        "type": "GVP",
+        "id": "SANTOSHI MAATA TEMPLE"
+      },
+      {
+        "type": "GVP",
+        "id": "East Yadav Nagar Road No-01"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T29",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Jubilee Hills Road No 51"
+      },
+      {
+        "type": "GVP",
+        "id": "WATERTANK MADHUBAN COLONY"
+      },
+      {
+        "type": "GVP",
+        "id": "PILLAR NO. 289"
+      },
+      {
+        "type": "GVP",
+        "id": "pillar No 125"
+      },
+      {
+        "type": "GVP",
+        "id": "Kajanagar Attapur"
+      },
+      {
+        "type": "GVP",
+        "id": "APAU Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Ekalavya Nagar Saidabad"
+      },
+      {
+        "type": "GVP",
+        "id": "Red Cross Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Chicken Point Asmangarh"
+      },
+      {
+        "type": "GVP",
+        "id": "Qadri Masjid Saidabad"
+      },
+      {
+        "type": "GVP",
+        "id": "Dr Sathyanarayana point"
+      },
+      {
+        "type": "GVP",
+        "id": "Shiva Ganga Theater Point Saidabad"
+      },
+      {
+        "type": "GVP",
+        "id": "Anna Wines Saidabad"
+      },
+      {
+        "type": "GVP",
+        "id": "Pallavi Point Saidabad"
+      },
+      {
+        "type": "GVP",
+        "id": "Hotel Dream Point_C6"
+      },
+      {
+        "type": "GVP",
+        "id": "Paneeniya Institute Of Dental College"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T30",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Peoples Plaza"
+      },
+      {
+        "type": "GVP",
+        "id": "Janapriya School road 2, Gummukonda colony"
+      },
+      {
+        "type": "GVP",
+        "id": "RDO office  road, PVNR Express way"
+      },
+      {
+        "type": "GVP",
+        "id": "Attapur Ward office opp"
+      },
+      {
+        "type": "GVP",
+        "id": "Kasipathi kallu compond back side"
+      },
+      {
+        "type": "GVP",
+        "id": "Beside Vivekananda School"
+      },
+      {
+        "type": "GVP",
+        "id": "Aurora Eng College"
+      },
+      {
+        "type": "GVP",
+        "id": "Vivekananda High School wall"
+      },
+      {
+        "type": "GVP",
+        "id": "Ramalayam Kaman Point Sidabad"
+      },
+      {
+        "type": "GVP",
+        "id": "Revenue Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Swimming pool Jayanagar"
+      },
+      {
+        "type": "GVP",
+        "id": "5Rs meals"
+      },
+      {
+        "type": "GVP",
+        "id": "Kalyan Nagar chicken Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Karanbagh"
+      },
+      {
+        "type": "GVP",
+        "id": "Colony Home Ground Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Madhav Nagar"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T31",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Sanath Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "huda park colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Panduranga nagar ST Basthi Pochamma temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Gravyard, Mallaiah towers back"
+      },
+      {
+        "type": "GVP",
+        "id": "Church opp, Tejaswinagar colony"
+      },
+      {
+        "type": "GVP",
+        "id": "TeegalaGuda Electrical  Junction"
+      },
+      {
+        "type": "GVP",
+        "id": "Saleemnagar Reliance"
+      },
+      {
+        "type": "GVP",
+        "id": "SBI Colony Current office Musarambagh"
+      },
+      {
+        "type": "GVP",
+        "id": "Bai Bonda"
+      },
+      {
+        "type": "GVP",
+        "id": "SBI colony Nalah Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Bhashyam School Musarambagh"
+      },
+      {
+        "type": "GVP",
+        "id": "Gunj Gate-2"
+      },
+      {
+        "type": "GVP",
+        "id": "Honda Show Room"
+      },
+      {
+        "type": "GVP",
+        "id": "Axis Bank"
+      },
+      {
+        "type": "GVP",
+        "id": "Ex corporator office Lane"
+      },
+      {
+        "type": "GVP",
+        "id": "Saleemnagar Paalabooth"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T32",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Chacha Nehuru Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Pakiza, Sulemannagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Gurudwar Main Rd"
+      },
+      {
+        "type": "GVP",
+        "id": "Road no. 17/B"
+      },
+      {
+        "type": "GVP",
+        "id": "Piller No. 188"
+      },
+      {
+        "type": "GVP",
+        "id": "Paalabooth Busstop (Moonlite School)"
+      },
+      {
+        "type": "GVP",
+        "id": "Agriculture Office Old Malakpet"
+      },
+      {
+        "type": "GVP",
+        "id": "Krishna Hospital Old Malakpet"
+      },
+      {
+        "type": "GVP",
+        "id": "Bismillah Hotel Old Malakpet"
+      },
+      {
+        "type": "GVP",
+        "id": "Afzal nagar Hi Tech"
+      },
+      {
+        "type": "GVP",
+        "id": "Shankar Nagar Old Malakpet"
+      },
+      {
+        "type": "GVP",
+        "id": "Chinthachettu Riksha Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Al Hasanat Masjid opposite"
+      },
+      {
+        "type": "GVP",
+        "id": "Ganji Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Maharaja Hotel Old Malakpet"
+      },
+      {
+        "type": "GVP",
+        "id": "Hi Tech Function hall Afzal Nagar"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T33",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Lalapet Flyover"
+      },
+      {
+        "type": "GVP",
+        "id": "Rajendra Nagar Library"
+      },
+      {
+        "type": "GVP",
+        "id": "GHMC FREEDOM PARK"
+      },
+      {
+        "type": "GVP",
+        "id": "Somireddy Apartment"
+      },
+      {
+        "type": "GVP",
+        "id": "SDR function hall, Back side gate"
+      },
+      {
+        "type": "GVP",
+        "id": "Aanand Nagar Servicing center"
+      },
+      {
+        "type": "GVP",
+        "id": "RSS Ground"
+      },
+      {
+        "type": "GVP",
+        "id": "Thirumala Apartment"
+      },
+      {
+        "type": "GVP",
+        "id": "Anand nagar X road Jaali point"
+      },
+      {
+        "type": "GVP",
+        "id": "Horeb Church opposite"
+      },
+      {
+        "type": "GVP",
+        "id": "Dilkusha Function Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Samosa Kharkana"
+      },
+      {
+        "type": "GVP",
+        "id": "D Mart"
+      },
+      {
+        "type": "GVP",
+        "id": "Reliance Kaman Old Malakpet"
+      },
+      {
+        "type": "GVP",
+        "id": "Corporator Office Old Malakpet"
+      },
+      {
+        "type": "GVP",
+        "id": "Basthi Dawakhana Old Malakpet"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T34",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Jalagam Vengal Rao Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Church Point Budwell"
+      },
+      {
+        "type": "GVP",
+        "id": "Kismathpura Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Rajendra Nagar College"
+      },
+      {
+        "type": "GVP",
+        "id": "Meeseva"
+      },
+      {
+        "type": "GVP",
+        "id": "Mariyam School"
+      },
+      {
+        "type": "GVP",
+        "id": "TB Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Dargah Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Azampura ward office back side"
+      },
+      {
+        "type": "GVP",
+        "id": "Kaladera Gym Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Chowkondi"
+      },
+      {
+        "type": "GVP",
+        "id": "Beside Dabeerpura Bridge"
+      },
+      {
+        "type": "GVP",
+        "id": "Nala Point_C6"
+      },
+      {
+        "type": "GVP",
+        "id": "Chota Bridge bakery point"
+      },
+      {
+        "type": "GVP",
+        "id": "Jail Gadan"
+      },
+      {
+        "type": "GVP",
+        "id": "Sapota Bagh"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T35",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Singareni Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Attapur Ground"
+      },
+      {
+        "type": "GVP",
+        "id": "MAISAMMA TEMPLE"
+      },
+      {
+        "type": "GVP",
+        "id": "Bondalagada Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Budwell Sbi Opp Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Dabirpura PS"
+      },
+      {
+        "type": "GVP",
+        "id": "Patang dabba"
+      },
+      {
+        "type": "GVP",
+        "id": "Dhobikundi Bin point"
+      },
+      {
+        "type": "GVP",
+        "id": "Nagabowli Pt"
+      },
+      {
+        "type": "GVP",
+        "id": "Bakery Pt"
+      },
+      {
+        "type": "GVP",
+        "id": "Star tailor Pt"
+      },
+      {
+        "type": "GVP",
+        "id": "CC Road Pt"
+      },
+      {
+        "type": "GVP",
+        "id": "Abdar Khana city function hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Chanchalguda Jr College"
+      },
+      {
+        "type": "GVP",
+        "id": "Hanuman Temple 1"
+      },
+      {
+        "type": "GVP",
+        "id": "Chadarghat Gas pmp"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T36",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Nagole"
+      },
+      {
+        "type": "GVP",
+        "id": "Shastri Puram Signal"
+      },
+      {
+        "type": "GVP",
+        "id": "KRISHNA WINES OPPOSITE"
+      },
+      {
+        "type": "GVP",
+        "id": "HONDA SHOW ROOM KATEDAN"
+      },
+      {
+        "type": "GVP",
+        "id": "Patel Hotel point, Attapur village"
+      },
+      {
+        "type": "GVP",
+        "id": "Laxmi Narasimha Bar CH 174"
+      },
+      {
+        "type": "GVP",
+        "id": "Lalitha Bhag Railway Bridge Front Side CH 172"
+      },
+      {
+        "type": "GVP",
+        "id": "Zafar Road CH 138"
+      },
+      {
+        "type": "GVP",
+        "id": "Chota phool CH 142"
+      },
+      {
+        "type": "GVP",
+        "id": "Crida Main Road Near Redaan Hotel Ch 747"
+      },
+      {
+        "type": "GVP",
+        "id": "Ramchander Nagar Temple Ch 220"
+      },
+      {
+        "type": "GVP",
+        "id": "Vijaya Garden Opposite Nursery Champapet Main Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Street No 6 Nala Singareni Colony CH 214"
+      },
+      {
+        "type": "GVP",
+        "id": "Madanapet Fish Market Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Band Pentaiah"
+      },
+      {
+        "type": "GVP",
+        "id": "Afreen Palace"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T37",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Devender Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "GasCompany"
+      },
+      {
+        "type": "GVP",
+        "id": "Pillar No 260"
+      },
+      {
+        "type": "GVP",
+        "id": "MP Saab home bulder"
+      },
+      {
+        "type": "GVP",
+        "id": "Shastri Puram Pipe Line"
+      },
+      {
+        "type": "GVP",
+        "id": "KANDIKAL GATE COMPOUND"
+      },
+      {
+        "type": "GVP",
+        "id": "UPPUGUDA BANODAYA SANGAM"
+      },
+      {
+        "type": "GVP",
+        "id": "PARVATHI NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "SHIVAJI NAGAR BRIDGE"
+      },
+      {
+        "type": "GVP",
+        "id": "FALUKNAMA POST OFFICE"
+      },
+      {
+        "type": "GVP",
+        "id": "WINES POINT RAJANNA BAI"
+      },
+      {
+        "type": "GVP",
+        "id": "NIMRA MASJID"
+      },
+      {
+        "type": "GVP",
+        "id": "LIMRA HOTEL"
+      },
+      {
+        "type": "GVP",
+        "id": "ENGINE BOWLI GANDHI NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "CHAND HOTEL"
+      },
+      {
+        "type": "GVP",
+        "id": "Shahjahan Point Ch 159"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T38",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Mallapur"
+      },
+      {
+        "type": "GVP",
+        "id": "Reddy Community Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Naidu colony"
+      },
+      {
+        "type": "GVP",
+        "id": "16 shelters"
+      },
+      {
+        "type": "GVP",
+        "id": "Shivarampally Govt. School"
+      },
+      {
+        "type": "GVP",
+        "id": "BARKAS JN"
+      },
+      {
+        "type": "GVP",
+        "id": "AKBER NAGAR NALA"
+      },
+      {
+        "type": "GVP",
+        "id": "MASOODA JN POINT"
+      },
+      {
+        "type": "GVP",
+        "id": "SUNNY GARDENS"
+      },
+      {
+        "type": "GVP",
+        "id": "JAMAL COLONY"
+      },
+      {
+        "type": "GVP",
+        "id": "KHANKHAN HOTEL"
+      },
+      {
+        "type": "GVP",
+        "id": "PEACE SCHOOL"
+      },
+      {
+        "type": "GVP",
+        "id": "MARKET POINT BANDLAGUDA"
+      },
+      {
+        "type": "GVP",
+        "id": "BANDLAGUDA NOORI SHAH DARGA"
+      },
+      {
+        "type": "GVP",
+        "id": "INDIRA NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "GULSHAN IQBAL COLONY"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T39",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Saket"
+      },
+      {
+        "type": "GVP",
+        "id": "AITUC Centre"
+      },
+      {
+        "type": "GVP",
+        "id": "Prakash Nagar - 1"
+      },
+      {
+        "type": "GVP",
+        "id": "Sarwa Reddy colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Kishtamma Gutta"
+      },
+      {
+        "type": "GVP",
+        "id": "Julonki Chaman"
+      },
+      {
+        "type": "GVP",
+        "id": "Kalipatak"
+      },
+      {
+        "type": "GVP",
+        "id": "Balshetty Khet Ground"
+      },
+      {
+        "type": "GVP",
+        "id": "Chune ki Dhan"
+      },
+      {
+        "type": "GVP",
+        "id": "Deepak"
+      },
+      {
+        "type": "GVP",
+        "id": "Ashok Pillar"
+      },
+      {
+        "type": "GVP",
+        "id": "Kurshidh Dewdi"
+      },
+      {
+        "type": "GVP",
+        "id": "Ganneki Adda Talabkatta"
+      },
+      {
+        "type": "GVP",
+        "id": "Iqbal Dewdi"
+      },
+      {
+        "type": "GVP",
+        "id": "Laxmi Narayana Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Miralam Mandi Center Point"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T40",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Auto Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "KINGS COLONY old school Phase 4"
+      },
+      {
+        "type": "GVP",
+        "id": "Aramgarh point railway bridge"
+      },
+      {
+        "type": "GVP",
+        "id": "Near Petrol Bunk Premavathi pet Road"
+      },
+      {
+        "type": "GVP",
+        "id": "P. No. 280"
+      },
+      {
+        "type": "GVP",
+        "id": "Yousuf Bazar"
+      },
+      {
+        "type": "GVP",
+        "id": "Cresent High School"
+      },
+      {
+        "type": "GVP",
+        "id": "Rooplalbazar chaman"
+      },
+      {
+        "type": "GVP",
+        "id": "Gajanand Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Hanuman Temple GhansiBazar"
+      },
+      {
+        "type": "GVP",
+        "id": "Puranapool Darwaza"
+      },
+      {
+        "type": "GVP",
+        "id": "Qamar Hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "Puranapool pardiwada"
+      },
+      {
+        "type": "GVP",
+        "id": "Oshin School"
+      },
+      {
+        "type": "GVP",
+        "id": "Reddy Sangam"
+      },
+      {
+        "type": "GVP",
+        "id": "Miralam Mandi inside"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T41",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Hasthinapuram"
+      },
+      {
+        "type": "GVP",
+        "id": "ABIDHA HOTEL MASJID OPP"
+      },
+      {
+        "type": "GVP",
+        "id": "Shastripuram Gym Point"
+      },
+      {
+        "type": "GVP",
+        "id": "King colony MARKET ROAD"
+      },
+      {
+        "type": "GVP",
+        "id": "Kings School Phase 2"
+      },
+      {
+        "type": "GVP",
+        "id": "Charkaman"
+      },
+      {
+        "type": "GVP",
+        "id": "Banner Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Zehara Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Nalla Pochhamma Temple Pattargatti"
+      },
+      {
+        "type": "GVP",
+        "id": "Gol chaman"
+      },
+      {
+        "type": "GVP",
+        "id": "Ratnabai Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Labour Adda Ghansi Bazar"
+      },
+      {
+        "type": "GVP",
+        "id": "Tadichettu Maidan"
+      },
+      {
+        "type": "GVP",
+        "id": "Bibi Bazar"
+      },
+      {
+        "type": "GVP",
+        "id": "Blind School"
+      },
+      {
+        "type": "GVP",
+        "id": "Laccal Court"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T42",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "IBT"
+      },
+      {
+        "type": "GVP",
+        "id": "GAGANPAHAD MASJID OPPOSITE"
+      },
+      {
+        "type": "GVP",
+        "id": "Amma garden"
+      },
+      {
+        "type": "GVP",
+        "id": "Ravi food x road, old kurnool road"
+      },
+      {
+        "type": "GVP",
+        "id": "Shastripuram Bus Stop Opposite"
+      },
+      {
+        "type": "GVP",
+        "id": "Falaknuma Depo "
+      },
+      {
+        "type": "GVP",
+        "id": "Rythu bazar Back Side Road "
+      },
+      {
+        "type": "GVP",
+        "id": "Farooq Nagar Gundu Hara Pahad "
+      },
+      {
+        "type": "GVP",
+        "id": "Nalla Pochhamma Temple Pattargatti"
+      },
+      {
+        "type": "GVP",
+        "id": "Alpha Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Deewan Dewdi"
+      },
+      {
+        "type": "GVP",
+        "id": "Pochamma Dabba"
+      },
+      {
+        "type": "GVP",
+        "id": "Puranapool Darwaza"
+      },
+      {
+        "type": "GVP",
+        "id": "Mitti Ka Sher"
+      },
+      {
+        "type": "GVP",
+        "id": "DuruShaher Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Darulshifa ward office"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T43",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Kattedan"
+      },
+      {
+        "type": "GVP",
+        "id": "layan school"
+      },
+      {
+        "type": "GVP",
+        "id": "Laxmiguda village beside govt school"
+      },
+      {
+        "type": "GVP",
+        "id": "Ali nagar masjid bandlaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Anmon Functional, Bandlaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Chicken Centre Point Beside Gems High School T"
+      },
+      {
+        "type": "GVP",
+        "id": "OPP Kamatipura PS "
+      },
+      {
+        "type": "GVP",
+        "id": "Puranapul Main Road Point "
+      },
+      {
+        "type": "GVP",
+        "id": "Fire Station Backside"
+      },
+      {
+        "type": "GVP",
+        "id": "Chandulal Baradari "
+      },
+      {
+        "type": "GVP",
+        "id": "Riverse Point "
+      },
+      {
+        "type": "GVP",
+        "id": "Srinivasa Galli Bahadurpura Police Station Back Side"
+      },
+      {
+        "type": "GVP",
+        "id": "Police Quaters Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Sadaam Colony Near Ground "
+      },
+      {
+        "type": "GVP",
+        "id": "Al jubail Colony "
+      },
+      {
+        "type": "GVP",
+        "id": "Hashamadbad Point "
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T44",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Mir Alam Tank"
+      },
+      {
+        "type": "GVP",
+        "id": "Water Tank to Ravi food S type road, Madhuban colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Old Kunrool road, Sai garammar school"
+      },
+      {
+        "type": "GVP",
+        "id": "TNGOS PARK OPP"
+      },
+      {
+        "type": "GVP",
+        "id": "Achaya Galli, Gaganpahad Village"
+      },
+      {
+        "type": "GVP",
+        "id": "BNK Colony "
+      },
+      {
+        "type": "GVP",
+        "id": "Boston School "
+      },
+      {
+        "type": "GVP",
+        "id": "Naaz Garden "
+      },
+      {
+        "type": "GVP",
+        "id": "Bilal Nagar "
+      },
+      {
+        "type": "GVP",
+        "id": "Lancer Kaman "
+      },
+      {
+        "type": "GVP",
+        "id": "Murali Nagar "
+      },
+      {
+        "type": "GVP",
+        "id": "MS Garden_C10"
+      },
+      {
+        "type": "GVP",
+        "id": "Ram Mandir "
+      },
+      {
+        "type": "GVP",
+        "id": "Savera Function Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Gandhi Ka Putla"
+      },
+      {
+        "type": "GVP",
+        "id": "Post Office Bhadurpura"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T45",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Bandlaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Habibullah hospital point"
+      },
+      {
+        "type": "GVP",
+        "id": "Pillar no 224"
+      },
+      {
+        "type": "GVP",
+        "id": "Transformer junction"
+      },
+      {
+        "type": "GVP",
+        "id": "Laxmiguda Hanuman temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Grave yard Nawab Saheb Kunta"
+      },
+      {
+        "type": "GVP",
+        "id": "Savera Function Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Moinpura Tank"
+      },
+      {
+        "type": "GVP",
+        "id": "Chandulal Baradari"
+      },
+      {
+        "type": "GVP",
+        "id": "Puranapul Main Road Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Falaknuma Depo"
+      },
+      {
+        "type": "GVP",
+        "id": "Junction Point_C10"
+      },
+      {
+        "type": "GVP",
+        "id": "Badi Masjid Vazir Ali Masjid "
+      },
+      {
+        "type": "GVP",
+        "id": "Mochi Colony "
+      },
+      {
+        "type": "GVP",
+        "id": "ITI College "
+      },
+      {
+        "type": "GVP",
+        "id": "Kamela Point "
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T46",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Ziyaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Piller No233 PVNR Express way"
+      },
+      {
+        "type": "GVP",
+        "id": "Chinthalmet Church, Urdu Medium School"
+      },
+      {
+        "type": "GVP",
+        "id": "Diamond City"
+      },
+      {
+        "type": "GVP",
+        "id": "classic garden"
+      },
+      {
+        "type": "GVP",
+        "id": "Rambagh main road (DC sir point)"
+      },
+      {
+        "type": "GVP",
+        "id": "Tejaswini colony beauty parlour"
+      },
+      {
+        "type": "GVP",
+        "id": "PILLAR NO. 289 -290"
+      },
+      {
+        "type": "GVP",
+        "id": "Dmart Service Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Attapur Barel Ground"
+      },
+      {
+        "type": "GVP",
+        "id": "Poilce Quoters"
+      },
+      {
+        "type": "GVP",
+        "id": "Imli ka Jhad"
+      },
+      {
+        "type": "GVP",
+        "id": "Bilal Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Falaknuma Railway Track"
+      },
+      {
+        "type": "GVP",
+        "id": "Farooq Nagar Gundu Hara Pahad"
+      },
+      {
+        "type": "GVP",
+        "id": "Gas Company Falaknuma Palace Back Side"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T47",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Jubilee Hills Road No 51"
+      },
+      {
+        "type": "GVP",
+        "id": "Lucky Hotel Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Jirra .Taiba cafe"
+      },
+      {
+        "type": "GVP",
+        "id": "Kings Palace Of"
+      },
+      {
+        "type": "GVP",
+        "id": "Laxmi Nagar Main Road"
+      },
+      {
+        "type": "GVP",
+        "id": "ARAM GHAR TRAFIC PS OPP"
+      },
+      {
+        "type": "GVP",
+        "id": "Musi road, Ista city"
+      },
+      {
+        "type": "GVP",
+        "id": "PILLAR NO 270 SNC CONVENTION"
+      },
+      {
+        "type": "GVP",
+        "id": "Pillar No 315 Wines"
+      },
+      {
+        "type": "GVP",
+        "id": "Piler No. 207"
+      },
+      {
+        "type": "GVP",
+        "id": "piller No 202 Relience petro pump"
+      },
+      {
+        "type": "GVP",
+        "id": "Piler No. 194"
+      },
+      {
+        "type": "GVP",
+        "id": "Happy homes towers"
+      },
+      {
+        "type": "GVP",
+        "id": "Piller No. 192"
+      },
+      {
+        "type": "GVP",
+        "id": "Hyderabad school Shivalayam"
+      },
+      {
+        "type": "GVP",
+        "id": "Musi Road, Laminagar park opp,"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T48",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Peoples Plaza"
+      },
+      {
+        "type": "GVP",
+        "id": "Nawab Sahab Function Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Vijaya Sree Apartment"
+      },
+      {
+        "type": "GVP",
+        "id": "HUDA Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "City Daimond Function Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Hanuman temple opposite"
+      },
+      {
+        "type": "GVP",
+        "id": "Setween park opposite"
+      },
+      {
+        "type": "GVP",
+        "id": "Outpost"
+      },
+      {
+        "type": "GVP",
+        "id": "Happy homes colony park"
+      },
+      {
+        "type": "GVP",
+        "id": "Huda swimming pool sikh chawan"
+      },
+      {
+        "type": "GVP",
+        "id": "Basement point - 2"
+      },
+      {
+        "type": "GVP",
+        "id": "Pillar no. 137"
+      },
+      {
+        "type": "GVP",
+        "id": "Setwin, Chinthalmet road"
+      },
+      {
+        "type": "GVP",
+        "id": "Lookman Medical Hall, Sulemannagar road"
+      },
+      {
+        "type": "GVP",
+        "id": "Forest premises, ZSI office"
+      },
+      {
+        "type": "GVP",
+        "id": "SS Garden Convention Aramghar Zoo  road"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T49",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Sanath Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Ex. Mayor House Opp."
+      },
+      {
+        "type": "GVP",
+        "id": "Perugu Kundi"
+      },
+      {
+        "type": "GVP",
+        "id": "Labour Adda Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Peddamma Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Rambagh temple ground"
+      },
+      {
+        "type": "GVP",
+        "id": "Piller No 117"
+      },
+      {
+        "type": "GVP",
+        "id": "Musi Road Hanuman Temple backside"
+      },
+      {
+        "type": "GVP",
+        "id": "Vandhana Winse Back Side"
+      },
+      {
+        "type": "GVP",
+        "id": "Nirda"
+      },
+      {
+        "type": "GVP",
+        "id": "NIRD MAIN ROAD"
+      },
+      {
+        "type": "GVP",
+        "id": "Nav Jouthi Youth Club"
+      },
+      {
+        "type": "GVP",
+        "id": "Andrabank Opp"
+      },
+      {
+        "type": "GVP",
+        "id": "Sai Babatemple"
+      },
+      {
+        "type": "GVP",
+        "id": "Piller No 227"
+      },
+      {
+        "type": "GVP",
+        "id": "Chinthalmet Nala"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T50",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Chacha Nehuru Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Criminal Court Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Police  Quarters"
+      },
+      {
+        "type": "GVP",
+        "id": "New Oxford School"
+      },
+      {
+        "type": "GVP",
+        "id": "Bhola Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Green City"
+      },
+      {
+        "type": "GVP",
+        "id": "DMOH Office"
+      },
+      {
+        "type": "GVP",
+        "id": "Erraboda Super Market"
+      },
+      {
+        "type": "GVP",
+        "id": "RTO Office"
+      },
+      {
+        "type": "GVP",
+        "id": "Bismilla hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "Pillar no 311"
+      },
+      {
+        "type": "GVP",
+        "id": "Glourium School"
+      },
+      {
+        "type": "GVP",
+        "id": "Excel School"
+      },
+      {
+        "type": "GVP",
+        "id": "Akbar majid, Talab katta"
+      },
+      {
+        "type": "GVP",
+        "id": "Mushmahal road, Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Kala Hanuman temple  beside"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T51",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Lalapet Flyover"
+      },
+      {
+        "type": "GVP",
+        "id": "Rehmatullah Masjid"
+      },
+      {
+        "type": "GVP",
+        "id": "Hal amdullah Hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "Glory Talkies"
+      },
+      {
+        "type": "GVP",
+        "id": "Subba Rao point"
+      },
+      {
+        "type": "GVP",
+        "id": "Noor Masjid,Suleman nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Fish Building P. No. 247"
+      },
+      {
+        "type": "GVP",
+        "id": "Happy Homes Tower Gate"
+      },
+      {
+        "type": "GVP",
+        "id": "Fort View Colony near Masjid"
+      },
+      {
+        "type": "GVP",
+        "id": "P. No. 270 Kallu compond"
+      },
+      {
+        "type": "GVP",
+        "id": "P. No. 303"
+      },
+      {
+        "type": "GVP",
+        "id": "Babughat bridge"
+      },
+      {
+        "type": "GVP",
+        "id": "Nalanda Nagar road no. 15"
+      },
+      {
+        "type": "GVP",
+        "id": "Babai Hotel backside"
+      },
+      {
+        "type": "GVP",
+        "id": "Erraboda Main road"
+      },
+      {
+        "type": "GVP",
+        "id": "Budvel Reddy Basthi"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T52",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Jalagam Vengal Rao Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Masab Tank X Rd"
+      },
+      {
+        "type": "GVP",
+        "id": "pillerno 23"
+      },
+      {
+        "type": "GVP",
+        "id": "Ghatala Masjid"
+      },
+      {
+        "type": "GVP",
+        "id": "Basthi Dhawakana Point"
+      },
+      {
+        "type": "GVP",
+        "id": "ARK Function Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "ARRF Function"
+      },
+      {
+        "type": "GVP",
+        "id": "City Place"
+      },
+      {
+        "type": "GVP",
+        "id": "Deccan Hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "raghavendra medical mehfil"
+      },
+      {
+        "type": "GVP",
+        "id": "old karnol main road darga opposite"
+      },
+      {
+        "type": "GVP",
+        "id": "old karnol main road petrol pump line 2"
+      },
+      {
+        "type": "GVP",
+        "id": "old karnol main road petrol pump line 1"
+      },
+      {
+        "type": "GVP",
+        "id": "One stone"
+      },
+      {
+        "type": "GVP",
+        "id": "neha point gaganpahad"
+      },
+      {
+        "type": "GVP",
+        "id": "Solitaire school beside Babulreddy nagar"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T53",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Singareni Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Imli Ka Jadu"
+      },
+      {
+        "type": "GVP",
+        "id": "Chintal Basti Market Road"
+      },
+      {
+        "type": "GVP",
+        "id": "DS heights"
+      },
+      {
+        "type": "GVP",
+        "id": "Shanti Nagar Road No.4"
+      },
+      {
+        "type": "GVP",
+        "id": " Vombay colony main road, Laxmiguda road"
+      },
+      {
+        "type": "GVP",
+        "id": "Gayatri matha temple kaman"
+      },
+      {
+        "type": "GVP",
+        "id": "PALLE CHERUVU PRIDE FUNCTION HALL OPPOSITE"
+      },
+      {
+        "type": "GVP",
+        "id": " Alinagar, Alwin Company Bin point"
+      },
+      {
+        "type": "GVP",
+        "id": "Darshan Dhodi"
+      },
+      {
+        "type": "GVP",
+        "id": "Patel and company back side road bin point"
+      },
+      {
+        "type": "GVP",
+        "id": "Labour adda savera hotel opp , Bandlaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Budwel railway station"
+      },
+      {
+        "type": "GVP",
+        "id": "Pariwar Dhaba"
+      },
+      {
+        "type": "GVP",
+        "id": "MALLANNA WINES"
+      },
+      {
+        "type": "GVP",
+        "id": "Shamma colony"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T54",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Nagole"
+      },
+      {
+        "type": "GVP",
+        "id": "NMDC Post Office"
+      },
+      {
+        "type": "GVP",
+        "id": "Lakdi Ka Pool"
+      },
+      {
+        "type": "GVP",
+        "id": "Barganja"
+      },
+      {
+        "type": "GVP",
+        "id": "Kal Bhairav Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "railway gate vatepally"
+      },
+      {
+        "type": "GVP",
+        "id": "Khaja hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "AKBAR HILLS,Sulemanagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Rekula point"
+      },
+      {
+        "type": "GVP",
+        "id": "Ice Factory turning"
+      },
+      {
+        "type": "GVP",
+        "id": "Shastripuram Bus stop back side"
+      },
+      {
+        "type": "GVP",
+        "id": "Petrol bunk back side Pragathi colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Bashireddy galli, Munaga chetu"
+      },
+      {
+        "type": "GVP",
+        "id": "3 statue"
+      },
+      {
+        "type": "GVP",
+        "id": "Shivarampally railway station (fish point)"
+      },
+      {
+        "type": "GVP",
+        "id": "Babulreddy nagar junction point"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T55",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Devender Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Pillar No 3"
+      },
+      {
+        "type": "GVP",
+        "id": "Pillar No.53"
+      },
+      {
+        "type": "GVP",
+        "id": "Beside Sarojini Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Beside NMDC"
+      },
+      {
+        "type": "GVP",
+        "id": "Gudimalkapur Inside"
+      },
+      {
+        "type": "GVP",
+        "id": "Kabaddi Stadium"
+      },
+      {
+        "type": "GVP",
+        "id": "MP Garden"
+      },
+      {
+        "type": "GVP",
+        "id": "Pillar No. 50"
+      },
+      {
+        "type": "GVP",
+        "id": "Muradnagar Kunta"
+      },
+      {
+        "type": "GVP",
+        "id": "Nethajinagar (market point)"
+      },
+      {
+        "type": "GVP",
+        "id": "Pillar No 252, PVNR Expressway"
+      },
+      {
+        "type": "GVP",
+        "id": "PILLAR NO 207 inner lane hill area"
+      },
+      {
+        "type": "GVP",
+        "id": "Gass company kesari majid road"
+      },
+      {
+        "type": "GVP",
+        "id": "Suitcase Karkhana, Pahadi Dargh road"
+      },
+      {
+        "type": "GVP",
+        "id": "258 pillar number"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T56",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Mallapur"
+      },
+      {
+        "type": "GVP",
+        "id": "Goshala"
+      },
+      {
+        "type": "GVP",
+        "id": "Pili mandapam"
+      },
+      {
+        "type": "GVP",
+        "id": "Uma Medical Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Hanuman temple 100ft road"
+      },
+      {
+        "type": "GVP",
+        "id": "Mother Saw"
+      },
+      {
+        "type": "GVP",
+        "id": "Tea  Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Goutam Model School, Mehdipatnam"
+      },
+      {
+        "type": "GVP",
+        "id": "Devuni Kunta"
+      },
+      {
+        "type": "GVP",
+        "id": "Indira Nagar Nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Noble Talkies Opp."
+      },
+      {
+        "type": "GVP",
+        "id": "Asif Nagar PS"
+      },
+      {
+        "type": "GVP",
+        "id": "Dal Mandi"
+      },
+      {
+        "type": "GVP",
+        "id": "Royal Mart"
+      },
+      {
+        "type": "GVP",
+        "id": "Gudimalkapur Vegetable Market"
+      },
+      {
+        "type": "GVP",
+        "id": "Sri Ram Temple"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T57",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Saket"
+      },
+      {
+        "type": "GVP",
+        "id": "SDA palace"
+      },
+      {
+        "type": "GVP",
+        "id": "Darga Point"
+      },
+      {
+        "type": "GVP",
+        "id": " Gowtham Model School"
+      },
+      {
+        "type": "GVP",
+        "id": "2BHK"
+      },
+      {
+        "type": "GVP",
+        "id": "Chintal Basti Masjid"
+      },
+      {
+        "type": "GVP",
+        "id": "Dhobi Ghat"
+      },
+      {
+        "type": "GVP",
+        "id": "Antony Church"
+      },
+      {
+        "type": "GVP",
+        "id": "Lodha Basti"
+      },
+      {
+        "type": "GVP",
+        "id": "Niloufer Traffic PS"
+      },
+      {
+        "type": "GVP",
+        "id": "Raza Nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Owaisi Playground"
+      },
+      {
+        "type": "GVP",
+        "id": "Babar Bhai Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Laffu Star"
+      },
+      {
+        "type": "GVP",
+        "id": "Barla Kundi"
+      },
+      {
+        "type": "GVP",
+        "id": "Apricot High School"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T58",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Auto Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Kaman point"
+      },
+      {
+        "type": "GVP",
+        "id": "Mukund reddy"
+      },
+      {
+        "type": "GVP",
+        "id": "Upper basthi"
+      },
+      {
+        "type": "GVP",
+        "id": "Sabjimandi Water works"
+      },
+      {
+        "type": "GVP",
+        "id": "Anwarul College"
+      },
+      {
+        "type": "GVP",
+        "id": "Katta  Maisamma"
+      },
+      {
+        "type": "GVP",
+        "id": "Bazarghat Parking Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Sitaram Bagh Lorry Adda"
+      },
+      {
+        "type": "GVP",
+        "id": "Gas Company Back Side"
+      },
+      {
+        "type": "GVP",
+        "id": "Jangam Basti"
+      },
+      {
+        "type": "GVP",
+        "id": "Central Emergency"
+      },
+      {
+        "type": "GVP",
+        "id": "Nampally Railway Station"
+      },
+      {
+        "type": "GVP",
+        "id": "Apollo Pharmacy"
+      },
+      {
+        "type": "GVP",
+        "id": "Ramleela Maidan Back Side"
+      },
+      {
+        "type": "GVP",
+        "id": "Rock Memorial Church"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T59",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Hasthinapuram"
+      },
+      {
+        "type": "GVP",
+        "id": "Pl.No.108"
+      },
+      {
+        "type": "GVP",
+        "id": "P.No.87"
+      },
+      {
+        "type": "GVP",
+        "id": "Annapurna temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Kallu compound"
+      },
+      {
+        "type": "GVP",
+        "id": "CI Office"
+      },
+      {
+        "type": "GVP",
+        "id": "Milan Talkies Kaman"
+      },
+      {
+        "type": "GVP",
+        "id": "Taimur Dairy Parlour"
+      },
+      {
+        "type": "GVP",
+        "id": "PS Nagar Back Side"
+      },
+      {
+        "type": "GVP",
+        "id": "Shanti Nagar Road No.1"
+      },
+      {
+        "type": "GVP",
+        "id": "Ek Miner Chourasta"
+      },
+      {
+        "type": "GVP",
+        "id": "Goodshed Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Devuni Kundi"
+      },
+      {
+        "type": "GVP",
+        "id": "Model Market"
+      },
+      {
+        "type": "GVP",
+        "id": "Bade Masjid"
+      },
+      {
+        "type": "GVP",
+        "id": "Mallepally Feelkhana"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T60",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "IBT"
+      },
+      {
+        "type": "GVP",
+        "id": "Floor mill left and right"
+      },
+      {
+        "type": "GVP",
+        "id": "Hanuman temple back side"
+      },
+      {
+        "type": "GVP",
+        "id": "KV School"
+      },
+      {
+        "type": "GVP",
+        "id": "Moghal ka nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Ranhanath Swami Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Tappa chabuthra X road"
+      },
+      {
+        "type": "GVP",
+        "id": "Medical point"
+      },
+      {
+        "type": "GVP",
+        "id": "Nalla Pochamma Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Walmiki nagar Point"
+      },
+      {
+        "type": "GVP",
+        "id": "2BHK Backside"
+      },
+      {
+        "type": "GVP",
+        "id": "Reverse Gully"
+      },
+      {
+        "type": "GVP",
+        "id": "Marzan Hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "Gokul Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Mehdipatnam Rythu Bazar"
+      },
+      {
+        "type": "GVP",
+        "id": "Foot Over Bridge,Opp. Mahaveer Hospital"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T61",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Kattedan"
+      },
+      {
+        "type": "GVP",
+        "id": "Bapghat"
+      },
+      {
+        "type": "GVP",
+        "id": "Vasavi collage"
+      },
+      {
+        "type": "GVP",
+        "id": "Prasanth Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Library point"
+      },
+      {
+        "type": "GVP",
+        "id": "Pannipura Govt hospital opp"
+      },
+      {
+        "type": "GVP",
+        "id": "Girkapalli Nala point"
+      },
+      {
+        "type": "GVP",
+        "id": "Pappalal"
+      },
+      {
+        "type": "GVP",
+        "id": "Ramsingpura"
+      },
+      {
+        "type": "GVP",
+        "id": "Lorry point"
+      },
+      {
+        "type": "GVP",
+        "id": "SBA Garden"
+      },
+      {
+        "type": "GVP",
+        "id": "Patel Hotel back side"
+      },
+      {
+        "type": "GVP",
+        "id": "Curent office"
+      },
+      {
+        "type": "GVP",
+        "id": "Katta maisamma"
+      },
+      {
+        "type": "GVP",
+        "id": "Dariyabagh"
+      },
+      {
+        "type": "GVP",
+        "id": " Kamela gate"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T62",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Mir Alam Tank"
+      },
+      {
+        "type": "GVP",
+        "id": "Fateh daraza Safely "
+      },
+      {
+        "type": "GVP",
+        "id": "Baghdad colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Pensionpura"
+      },
+      {
+        "type": "GVP",
+        "id": "Dhankota"
+      },
+      {
+        "type": "GVP",
+        "id": "PL.No.112"
+      },
+      {
+        "type": "GVP",
+        "id": "P.No 111"
+      },
+      {
+        "type": "GVP",
+        "id": "KMG Dairy"
+      },
+      {
+        "type": "GVP",
+        "id": "Market Kaman"
+      },
+      {
+        "type": "GVP",
+        "id": "Toli Masjid "
+      },
+      {
+        "type": "GVP",
+        "id": "Mallana swamy temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Opp HDFC ATM"
+      },
+      {
+        "type": "GVP",
+        "id": "Thallagadda Bus stop"
+      },
+      {
+        "type": "GVP",
+        "id": "Curent office"
+      },
+      {
+        "type": "GVP",
+        "id": "Kismat caf\u00e9"
+      },
+      {
+        "type": "GVP",
+        "id": "Clothes store"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T63",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Bandlaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Hahmadiya Masjid"
+      },
+      {
+        "type": "GVP",
+        "id": "Alijapur"
+      },
+      {
+        "type": "GVP",
+        "id": "Saleh nagar Kantcha"
+      },
+      {
+        "type": "GVP",
+        "id": "Jamali Darwaza "
+      },
+      {
+        "type": "GVP",
+        "id": "Bus Stop"
+      },
+      {
+        "type": "GVP",
+        "id": "Swimming pool"
+      },
+      {
+        "type": "GVP",
+        "id": "Moti darwaza"
+      },
+      {
+        "type": "GVP",
+        "id": "Dhana Lakshmi "
+      },
+      {
+        "type": "GVP",
+        "id": "Sai Ram bapu Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Gundu Pochamma Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Shishu mandir"
+      },
+      {
+        "type": "GVP",
+        "id": "Taramathi right and left"
+      },
+      {
+        "type": "GVP",
+        "id": "Ramdevguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Vcare section"
+      },
+      {
+        "type": "GVP",
+        "id": "Darga Point"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T64",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Ziyaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Pension pura"
+      },
+      {
+        "type": "GVP",
+        "id": "P.No.72"
+      },
+      {
+        "type": "GVP",
+        "id": "KK Function hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Salarjung park"
+      },
+      {
+        "type": "GVP",
+        "id": "Tolichowki main road "
+      },
+      {
+        "type": "GVP",
+        "id": "Old milatary gate"
+      },
+      {
+        "type": "GVP",
+        "id": "Pasha hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "Shatam talab"
+      },
+      {
+        "type": "GVP",
+        "id": "Nadeem Colony Car Parking"
+      },
+      {
+        "type": "GVP",
+        "id": "Neeraja Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Virasath nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Balreddy nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Companybagh"
+      },
+      {
+        "type": "GVP",
+        "id": "Darga Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Police quarters"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T65",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Jubilee Hills Road No 51"
+      },
+      {
+        "type": "GVP",
+        "id": "Maqbara"
+      },
+      {
+        "type": "GVP",
+        "id": "Zeeshan Hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "Uma Medical Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Sai Ram bapu Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Zeeshan galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Yousuf tekre colony entrance"
+      },
+      {
+        "type": "GVP",
+        "id": "Al hasnath colony entrance"
+      },
+      {
+        "type": "GVP",
+        "id": "Kabha hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Tolichowki main road "
+      },
+      {
+        "type": "GVP",
+        "id": "Ice Factory"
+      },
+      {
+        "type": "GVP",
+        "id": "KGN Nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Hakeempet Govt school Parking"
+      },
+      {
+        "type": "GVP",
+        "id": "Hakeempet Govt school"
+      },
+      {
+        "type": "GVP",
+        "id": "Hakeempet Apollo down "
+      },
+      {
+        "type": "GVP",
+        "id": "Hand Sybol"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T66",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Peoples Plaza"
+      },
+      {
+        "type": "GVP",
+        "id": "Gundu pochamma temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Dhan Kota"
+      },
+      {
+        "type": "GVP",
+        "id": "DARIYABAGH"
+      },
+      {
+        "type": "GVP",
+        "id": "Company Bagh"
+      },
+      {
+        "type": "GVP",
+        "id": "Bhagdad Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Annapurna temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Al hasnath colony entrance"
+      },
+      {
+        "type": "GVP",
+        "id": "Akberpura"
+      },
+      {
+        "type": "GVP",
+        "id": "Masjid point"
+      },
+      {
+        "type": "GVP",
+        "id": "Naya road"
+      },
+      {
+        "type": "GVP",
+        "id": "Nagina Hotel Darga"
+      },
+      {
+        "type": "GVP",
+        "id": "Bus stop"
+      },
+      {
+        "type": "GVP",
+        "id": "Yousuf Tekry Colony gate"
+      },
+      {
+        "type": "GVP",
+        "id": "Gowtham model school"
+      },
+      {
+        "type": "GVP",
+        "id": "Khadarbah near by School"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T67",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Sanath Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Police quarters"
+      },
+      {
+        "type": "GVP",
+        "id": "Pillar 112 musi side"
+      },
+      {
+        "type": "GVP",
+        "id": "Parnipura"
+      },
+      {
+        "type": "GVP",
+        "id": "P.No.87"
+      },
+      {
+        "type": "GVP",
+        "id": "Nalla pochamma temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Moti Darwaja"
+      },
+      {
+        "type": "GVP",
+        "id": "Market kaman"
+      },
+      {
+        "type": "GVP",
+        "id": "Lorry point"
+      },
+      {
+        "type": "GVP",
+        "id": "Katta Maisamma"
+      },
+      {
+        "type": "GVP",
+        "id": "Kabha hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Jamali Darwaza"
+      },
+      {
+        "type": "GVP",
+        "id": "Hanuman temple 100ft road"
+      },
+      {
+        "type": "GVP",
+        "id": "Goshala."
+      },
+      {
+        "type": "GVP",
+        "id": "Girkapalli nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Fateh daraza Safely"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T68",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Chacha Nehuru Park"
+      },
+      {
+        "type": "GVP",
+        "id": "4 season"
+      },
+      {
+        "type": "GVP",
+        "id": "Nalanda point"
+      },
+      {
+        "type": "GVP",
+        "id": "Bakery Point"
+      },
+      {
+        "type": "GVP",
+        "id": "KMG Dairy"
+      },
+      {
+        "type": "GVP",
+        "id": "Apollo down"
+      },
+      {
+        "type": "GVP",
+        "id": "BSNL"
+      },
+      {
+        "type": "GVP",
+        "id": "Joshwadi"
+      },
+      {
+        "type": "GVP",
+        "id": "Walmiki nagar Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Tolichowki Main road Moghal complex"
+      },
+      {
+        "type": "GVP",
+        "id": "Toli chowki X road"
+      },
+      {
+        "type": "GVP",
+        "id": "Swimming  pool"
+      },
+      {
+        "type": "GVP",
+        "id": "SDA palace"
+      },
+      {
+        "type": "GVP",
+        "id": "Saleh Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Salarjung park"
+      },
+      {
+        "type": "GVP",
+        "id": "ramsingpura x road"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T69",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Lalapet Flyover"
+      },
+      {
+        "type": "GVP",
+        "id": "2BHK Backside"
+      },
+      {
+        "type": "GVP",
+        "id": "Dhan Laxmi Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Upper basthi"
+      },
+      {
+        "type": "GVP",
+        "id": "Veera badhra temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Vasavi college road"
+      },
+      {
+        "type": "GVP",
+        "id": "Old kamela"
+      },
+      {
+        "type": "GVP",
+        "id": "Current Office"
+      },
+      {
+        "type": "GVP",
+        "id": "Dargah Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Clothes store"
+      },
+      {
+        "type": "GVP",
+        "id": "bapu ghat"
+      },
+      {
+        "type": "GVP",
+        "id": "ASR nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Alijapur eigha road"
+      },
+      {
+        "type": "GVP",
+        "id": "al hasnath nagar park"
+      },
+      {
+        "type": "GVP",
+        "id": "Akber pura main road pasha bai hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "Ahmedia Masjid"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T70",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Jalagam Vengal Rao Park"
+      },
+      {
+        "type": "GVP",
+        "id": "library"
+      },
+      {
+        "type": "GVP",
+        "id": "KV school"
+      },
+      {
+        "type": "GVP",
+        "id": "Kaman point"
+      },
+      {
+        "type": "GVP",
+        "id": "Kallu compound"
+      },
+      {
+        "type": "GVP",
+        "id": "Jilledu chettu point"
+      },
+      {
+        "type": "GVP",
+        "id": "Ice factory temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Ice facotry"
+      },
+      {
+        "type": "GVP",
+        "id": "Ibrahim bagh weaker section 1 & 2"
+      },
+      {
+        "type": "GVP",
+        "id": "HDFC bank talla gadda"
+      },
+      {
+        "type": "GVP",
+        "id": "Hanuman Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "hakeempet road (BSNL)"
+      },
+      {
+        "type": "GVP",
+        "id": "Hakeempet govt.school"
+      },
+      {
+        "type": "GVP",
+        "id": "Flour mill"
+      },
+      {
+        "type": "GVP",
+        "id": "Govt School Prasanth Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Govt School parking"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T71",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Singareni Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Reverse Gully"
+      },
+      {
+        "type": "GVP",
+        "id": "Ramdevguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Nalla Pochamma main road"
+      },
+      {
+        "type": "GVP",
+        "id": "Nalla Pochamma"
+      },
+      {
+        "type": "GVP",
+        "id": "Nadeem colony road point"
+      },
+      {
+        "type": "GVP",
+        "id": "Military Gate"
+      },
+      {
+        "type": "GVP",
+        "id": "Mukunda reddy"
+      },
+      {
+        "type": "GVP",
+        "id": "Moghal ka nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Milk shop"
+      },
+      {
+        "type": "GVP",
+        "id": "Medical point"
+      },
+      {
+        "type": "GVP",
+        "id": "khaderbagh"
+      },
+      {
+        "type": "GVP",
+        "id": "KGN Nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Katora house back side"
+      },
+      {
+        "type": "GVP",
+        "id": "KK Function hall galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Kismath caf"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T72",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Nagole"
+      },
+      {
+        "type": "GVP",
+        "id": "Taramati Baradhari left & Right"
+      },
+      {
+        "type": "GVP",
+        "id": "Tappa chabutra"
+      },
+      {
+        "type": "GVP",
+        "id": "Toli Masjid"
+      },
+      {
+        "type": "GVP",
+        "id": "Piller no.108"
+      },
+      {
+        "type": "GVP",
+        "id": "Pillar no.83 & 85"
+      },
+      {
+        "type": "GVP",
+        "id": "Pillar no.72"
+      },
+      {
+        "type": "GVP",
+        "id": "Pili mandapam"
+      },
+      {
+        "type": "GVP",
+        "id": "Papalal"
+      },
+      {
+        "type": "GVP",
+        "id": "New sai nagar(chinta chettu)"
+      },
+      {
+        "type": "GVP",
+        "id": "Neeraja Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Nanal nagar bus stop"
+      },
+      {
+        "type": "GVP",
+        "id": "Salarjung church"
+      },
+      {
+        "type": "GVP",
+        "id": "sajjad colony tiles point"
+      },
+      {
+        "type": "GVP",
+        "id": "Sai nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Sabji mandi"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T73",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Devender Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Nayabasthi Jinsi Chowrya Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Oohnt Wadi"
+      },
+      {
+        "type": "GVP",
+        "id": "Kanya Patashala"
+      },
+      {
+        "type": "GVP",
+        "id": "Mogaram Basthi"
+      },
+      {
+        "type": "GVP",
+        "id": "Patanwadi"
+      },
+      {
+        "type": "GVP",
+        "id": "Chunni Ki Dung"
+      },
+      {
+        "type": "GVP",
+        "id": "Shanthi Fire Works"
+      },
+      {
+        "type": "GVP",
+        "id": "Osmania General Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Darmashalla"
+      },
+      {
+        "type": "GVP",
+        "id": "Sishu Mandir"
+      },
+      {
+        "type": "GVP",
+        "id": "Shatam Talab Bridge side"
+      },
+      {
+        "type": "GVP",
+        "id": "Shatam Talab"
+      },
+      {
+        "type": "GVP",
+        "id": "Shah ghouse hotel opp"
+      },
+      {
+        "type": "GVP",
+        "id": "Thallagadda Bus stop"
+      },
+      {
+        "type": "GVP",
+        "id": "Temple point"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T74",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Mallapur"
+      },
+      {
+        "type": "GVP",
+        "id": "Chandanwadi Nala c14"
+      },
+      {
+        "type": "GVP",
+        "id": "Chandanwadi Toilet Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Mangalhat Market"
+      },
+      {
+        "type": "GVP",
+        "id": "Iqdal Kundi"
+      },
+      {
+        "type": "GVP",
+        "id": "Gode Ki Kabar"
+      },
+      {
+        "type": "GVP",
+        "id": "Jummerath Bazar Nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Seena Hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "Sanathan Daram"
+      },
+      {
+        "type": "GVP",
+        "id": "Vandemathaeam School"
+      },
+      {
+        "type": "GVP",
+        "id": "Nagarkhana"
+      },
+      {
+        "type": "GVP",
+        "id": "SAMOSA GALLI"
+      },
+      {
+        "type": "GVP",
+        "id": "Kishan Gunj"
+      },
+      {
+        "type": "GVP",
+        "id": "Old bustop"
+      },
+      {
+        "type": "GVP",
+        "id": "Ashok Lodge"
+      },
+      {
+        "type": "GVP",
+        "id": "Fish Market_C14"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T75",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Saket"
+      },
+      {
+        "type": "GVP",
+        "id": "Guffa Mandir"
+      },
+      {
+        "type": "GVP",
+        "id": "sattyaanna Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "GANDI HANUMAN"
+      },
+      {
+        "type": "GVP",
+        "id": "Balram Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Rahimpura Play Ground"
+      },
+      {
+        "type": "GVP",
+        "id": "Rahimpura Doodh Khana"
+      },
+      {
+        "type": "GVP",
+        "id": "RK pet"
+      },
+      {
+        "type": "GVP",
+        "id": "Chisti Chamman"
+      },
+      {
+        "type": "GVP",
+        "id": "Aziz Bagh"
+      },
+      {
+        "type": "GVP",
+        "id": "Jali hanuman point"
+      },
+      {
+        "type": "GVP",
+        "id": "Verternary Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Mangalhat PS Line"
+      },
+      {
+        "type": "GVP",
+        "id": "Bharath Metal"
+      },
+      {
+        "type": "GVP",
+        "id": "Acp office Back Side"
+      },
+      {
+        "type": "GVP",
+        "id": "ACP OFFICE 5 TEMPLE"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T76",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Auto Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Mallakunta Nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Service Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Sevak Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Flower Market"
+      },
+      {
+        "type": "GVP",
+        "id": "Charkandill"
+      },
+      {
+        "type": "GVP",
+        "id": "Kattesallam"
+      },
+      {
+        "type": "GVP",
+        "id": "MATHA TEMPLE GOSHAMAHAL"
+      },
+      {
+        "type": "GVP",
+        "id": "VV College"
+      },
+      {
+        "type": "GVP",
+        "id": "94 Bus Stop"
+      },
+      {
+        "type": "GVP",
+        "id": "Rajakpura Nala"
+      },
+      {
+        "type": "GVP",
+        "id": "BSNL POINT_C14"
+      },
+      {
+        "type": "GVP",
+        "id": "Pochamma Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "KUMARWADI"
+      },
+      {
+        "type": "GVP",
+        "id": "Society Bakery"
+      },
+      {
+        "type": "GVP",
+        "id": "shivlala Nagar OPEN Point"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T77",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Hasthinapuram"
+      },
+      {
+        "type": "GVP",
+        "id": "Phool Bagh"
+      },
+      {
+        "type": "GVP",
+        "id": "Ganesh Temple Essamiya Bazar"
+      },
+      {
+        "type": "GVP",
+        "id": "Santosh Dabha"
+      },
+      {
+        "type": "GVP",
+        "id": "Basheerbagh Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Law College"
+      },
+      {
+        "type": "GVP",
+        "id": "AGARWAL CHAMBER"
+      },
+      {
+        "type": "GVP",
+        "id": "SUJATHA School"
+      },
+      {
+        "type": "GVP",
+        "id": "Water Works"
+      },
+      {
+        "type": "GVP",
+        "id": "SAVARANA TRANSPORT"
+      },
+      {
+        "type": "GVP",
+        "id": "Toop Khana"
+      },
+      {
+        "type": "GVP",
+        "id": "BALWADI"
+      },
+      {
+        "type": "GVP",
+        "id": "WARE HOUSING"
+      },
+      {
+        "type": "GVP",
+        "id": "Patel Nagar1"
+      },
+      {
+        "type": "GVP",
+        "id": "Goshamahal Sports Complex"
+      },
+      {
+        "type": "GVP",
+        "id": "Traffic pS"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T78",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "IBT"
+      },
+      {
+        "type": "GVP",
+        "id": "Boring Galli Tilak Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Gujarath Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Pochamma Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Badam Masjid"
+      },
+      {
+        "type": "GVP",
+        "id": "SULTAN BAZAR CHOURASTHA"
+      },
+      {
+        "type": "GVP",
+        "id": "BIRLA PLANITORIUM"
+      },
+      {
+        "type": "GVP",
+        "id": "Adarsh Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Birla Mandir"
+      },
+      {
+        "type": "GVP",
+        "id": "GHMC HEAD OFFICE"
+      },
+      {
+        "type": "GVP",
+        "id": "Pigah Plaza"
+      },
+      {
+        "type": "GVP",
+        "id": "NIZAM COLLEGE HOSTEL"
+      },
+      {
+        "type": "GVP",
+        "id": "Poothli Boli ( Chai wala opposite)"
+      },
+      {
+        "type": "GVP",
+        "id": "TV GALLI Esamiya Bazaar"
+      },
+      {
+        "type": "GVP",
+        "id": "Barlakundi Essemaya Bazar"
+      },
+      {
+        "type": "GVP",
+        "id": "CBS"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T79",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Kattedan"
+      },
+      {
+        "type": "GVP",
+        "id": "Acp office Back Side"
+      },
+      {
+        "type": "GVP",
+        "id": "Chandhanwadi 1"
+      },
+      {
+        "type": "GVP",
+        "id": "Sanathan Daram"
+      },
+      {
+        "type": "GVP",
+        "id": "Chandanwadi Nala c14"
+      },
+      {
+        "type": "GVP",
+        "id": "Chandanwadi Toilet Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Kanya Patashala"
+      },
+      {
+        "type": "GVP",
+        "id": "Kishan Gunj"
+      },
+      {
+        "type": "GVP",
+        "id": "Mogaram Basthi"
+      },
+      {
+        "type": "GVP",
+        "id": "Pokar Mal Chaman"
+      },
+      {
+        "type": "GVP",
+        "id": "bademiya petrol pump (Osman Shai)"
+      },
+      {
+        "type": "GVP",
+        "id": "Mangalhat PS Line"
+      },
+      {
+        "type": "GVP",
+        "id": "Vandemathaeam School"
+      },
+      {
+        "type": "GVP",
+        "id": "Nagarkhana"
+      },
+      {
+        "type": "GVP",
+        "id": "LITTLE FLOWERS SCHOOL"
+      },
+      {
+        "type": "GVP",
+        "id": "LB STADIUM"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T80",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Mir Alam Tank"
+      },
+      {
+        "type": "GVP",
+        "id": "Osmania General Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Chunni Ki Dung"
+      },
+      {
+        "type": "GVP",
+        "id": "Shanthi Fire Works"
+      },
+      {
+        "type": "GVP",
+        "id": "Begum Bazaar Ward Office"
+      },
+      {
+        "type": "GVP",
+        "id": "Fish Market_C14"
+      },
+      {
+        "type": "GVP",
+        "id": "Patanwadi"
+      },
+      {
+        "type": "GVP",
+        "id": "Nayabasthi Jinsi Chowrya Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Mangalhat Market"
+      },
+      {
+        "type": "GVP",
+        "id": "Gode Ki Kabar"
+      },
+      {
+        "type": "GVP",
+        "id": "Iqdal Kundi"
+      },
+      {
+        "type": "GVP",
+        "id": "Darmashalla"
+      },
+      {
+        "type": "GVP",
+        "id": "Pan Mandhi"
+      },
+      {
+        "type": "GVP",
+        "id": "Jummerath Bazar Nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Oohnt Wadi"
+      },
+      {
+        "type": "GVP",
+        "id": "Bharath Metal"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T81",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Bandlaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Guffa Mandir"
+      },
+      {
+        "type": "GVP",
+        "id": "BSNL POINT_C14"
+      },
+      {
+        "type": "GVP",
+        "id": "Patel Nagar1"
+      },
+      {
+        "type": "GVP",
+        "id": "Badam Masjid"
+      },
+      {
+        "type": "GVP",
+        "id": "shivlala Nagar OPEN Point"
+      },
+      {
+        "type": "GVP",
+        "id": "sattyaanna Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Phool Bagh"
+      },
+      {
+        "type": "GVP",
+        "id": "Old bustop"
+      },
+      {
+        "type": "GVP",
+        "id": "Ashok Lodge"
+      },
+      {
+        "type": "GVP",
+        "id": "Kabrastaan"
+      },
+      {
+        "type": "GVP",
+        "id": "Seena Hotel"
+      },
+      {
+        "type": "GVP",
+        "id": "ACP OFFICE 5 TEMPLE"
+      },
+      {
+        "type": "GVP",
+        "id": "Darga"
+      },
+      {
+        "type": "GVP",
+        "id": "SAMOSA GALLI"
+      },
+      {
+        "type": "GVP",
+        "id": "Hanuman Temple Point C14"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T82",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Ziyaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Pigah Plaza"
+      },
+      {
+        "type": "GVP",
+        "id": "NIZAM COLLEGE HOSTEL"
+      },
+      {
+        "type": "GVP",
+        "id": "Law College"
+      },
+      {
+        "type": "GVP",
+        "id": "Poothli Boli ( Chai wala opposite)"
+      },
+      {
+        "type": "GVP",
+        "id": "King Koti Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "AGARWAL CHAMBER"
+      },
+      {
+        "type": "GVP",
+        "id": "Boring Galli Tilak Road"
+      },
+      {
+        "type": "GVP",
+        "id": "SULTAN BAZAR CHOURASTHA"
+      },
+      {
+        "type": "GVP",
+        "id": "TV GALLI Esamiya Bazaar"
+      },
+      {
+        "type": "GVP",
+        "id": "Barlakundi Essemaya Bazar"
+      },
+      {
+        "type": "GVP",
+        "id": "CBS"
+      },
+      {
+        "type": "GVP",
+        "id": "Gujarath Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Pochamma Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "BALWADI"
+      },
+      {
+        "type": "GVP",
+        "id": "WARE HOUSING"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T83",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Jubilee Hills Road No 51"
+      },
+      {
+        "type": "GVP",
+        "id": "Charkandill"
+      },
+      {
+        "type": "GVP",
+        "id": "MATHA TEMPLE GOSHAMAHAL"
+      },
+      {
+        "type": "GVP",
+        "id": "Kattesallam"
+      },
+      {
+        "type": "GVP",
+        "id": "SAVARANA TRANSPORT"
+      },
+      {
+        "type": "GVP",
+        "id": "Toop Khana"
+      },
+      {
+        "type": "GVP",
+        "id": "SUJATHA School"
+      },
+      {
+        "type": "GVP",
+        "id": "NETAJI NAGAR 1,2"
+      },
+      {
+        "type": "GVP",
+        "id": "LITTLE FLOWERS SCHOOL"
+      },
+      {
+        "type": "GVP",
+        "id": "Santosh Dabha"
+      },
+      {
+        "type": "GVP",
+        "id": "LB STADIUM"
+      },
+      {
+        "type": "GVP",
+        "id": "BIRLA PLANITORIUM"
+      },
+      {
+        "type": "GVP",
+        "id": "Adarsh Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Birla Mandir"
+      },
+      {
+        "type": "GVP",
+        "id": "Basheerbagh Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "GHMC HEAD OFFICE"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T84",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Peoples Plaza"
+      },
+      {
+        "type": "GVP",
+        "id": "Balram Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Verternary Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Chisti Chamman"
+      },
+      {
+        "type": "GVP",
+        "id": "Aziz Bagh"
+      },
+      {
+        "type": "GVP",
+        "id": "Ganesh Temple Essamiya Bazar"
+      },
+      {
+        "type": "GVP",
+        "id": "Flower Market"
+      },
+      {
+        "type": "GVP",
+        "id": "Water Works"
+      },
+      {
+        "type": "GVP",
+        "id": "VV College"
+      },
+      {
+        "type": "GVP",
+        "id": "94 Bus Stop"
+      },
+      {
+        "type": "GVP",
+        "id": "Goshamahal Sports Complex"
+      },
+      {
+        "type": "GVP",
+        "id": "Traffic pS"
+      },
+      {
+        "type": "GVP",
+        "id": "Mallakunta Nala"
+      },
+      {
+        "type": "GVP",
+        "id": "Service Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Sevak Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Rajakpura Nala"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T85",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Sanath Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Balapura Basti kaman 1"
+      },
+      {
+        "type": "GVP",
+        "id": "Saifabad Ps"
+      },
+      {
+        "type": "GVP",
+        "id": "Fish Market"
+      },
+      {
+        "type": "GVP",
+        "id": "Mutton Shop"
+      },
+      {
+        "type": "GVP",
+        "id": "Shareef maidan"
+      },
+      {
+        "type": "GVP",
+        "id": "Railway Track"
+      },
+      {
+        "type": "GVP",
+        "id": "Sensation Theatre"
+      },
+      {
+        "type": "GVP",
+        "id": "RK pet"
+      },
+      {
+        "type": "GVP",
+        "id": "Jali hanuman point"
+      },
+      {
+        "type": "GVP",
+        "id": "Rahimpura Play Ground"
+      },
+      {
+        "type": "GVP",
+        "id": "Rahimpura Doodh Khana"
+      },
+      {
+        "type": "GVP",
+        "id": "Pochamma Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "KUMARWADI"
+      },
+      {
+        "type": "GVP",
+        "id": "Society Bakery"
+      },
+      {
+        "type": "GVP",
+        "id": "GANDI HANUMAN"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T86",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Chacha Nehuru Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Zilla Parishad Office"
+      },
+      {
+        "type": "GVP",
+        "id": "Khairatabad Ward Office"
+      },
+      {
+        "type": "GVP",
+        "id": "Go gas"
+      },
+      {
+        "type": "GVP",
+        "id": "Bada Ganesh"
+      },
+      {
+        "type": "GVP",
+        "id": "Double Bed room 1&2"
+      },
+      {
+        "type": "GVP",
+        "id": "Under Punjagutta Bridge"
+      },
+      {
+        "type": "GVP",
+        "id": "Sakshi Beside Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Venkata ramana Colony Kabza"
+      },
+      {
+        "type": "GVP",
+        "id": "Premnagar Committee Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Premnagar Kaman"
+      },
+      {
+        "type": "GVP",
+        "id": "Sapthamatha Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Yadaiah Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "MRO Office"
+      },
+      {
+        "type": "GVP",
+        "id": "AC Guards Ground"
+      },
+      {
+        "type": "GVP",
+        "id": "Eidgah"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T87",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Lalapet Flyover"
+      },
+      {
+        "type": "GVP",
+        "id": "Water Tank _Somajiguda"
+      },
+      {
+        "type": "GVP",
+        "id": "Akshaya Apartment"
+      },
+      {
+        "type": "GVP",
+        "id": "SBI Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Vaddera Basti"
+      },
+      {
+        "type": "GVP",
+        "id": "SBI Graveyard"
+      },
+      {
+        "type": "GVP",
+        "id": "Big Bazar Back side"
+      },
+      {
+        "type": "GVP",
+        "id": "MS Maktha"
+      },
+      {
+        "type": "GVP",
+        "id": "Kapadia Line"
+      },
+      {
+        "type": "GVP",
+        "id": "Near Saibaba Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Madam Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Church(Yashoda Hospital)"
+      },
+      {
+        "type": "GVP",
+        "id": "Villamery College"
+      },
+      {
+        "type": "GVP",
+        "id": "BSP Office"
+      },
+      {
+        "type": "GVP",
+        "id": "Benz Showroom Opposite Galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Chinthal Basti Goda"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T88",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Jalagam Vengal Rao Park"
+      },
+      {
+        "type": "GVP",
+        "id": "SR Nagar New PS"
+      },
+      {
+        "type": "GVP",
+        "id": "Mega city road"
+      },
+      {
+        "type": "GVP",
+        "id": "ICICI Bank Lane"
+      },
+      {
+        "type": "GVP",
+        "id": "Transformer"
+      },
+      {
+        "type": "GVP",
+        "id": "South India Shopping Mall"
+      },
+      {
+        "type": "GVP",
+        "id": "Yellareddyguda Market"
+      },
+      {
+        "type": "GVP",
+        "id": "Kirthilal Lane"
+      },
+      {
+        "type": "GVP",
+        "id": "Punjagutta metro station"
+      },
+      {
+        "type": "GVP",
+        "id": "BS Maktha"
+      },
+      {
+        "type": "GVP",
+        "id": "Kundanbagh Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Bhaskar Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Jeans Corner"
+      },
+      {
+        "type": "GVP",
+        "id": "Saradhi Studio back side"
+      },
+      {
+        "type": "GVP",
+        "id": "BSNL naala"
+      },
+      {
+        "type": "GVP",
+        "id": "Kammasangham"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T89",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Singareni Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "SR Nagar Narayana college"
+      },
+      {
+        "type": "GVP",
+        "id": "Shivbagh School beside lane"
+      },
+      {
+        "type": "GVP",
+        "id": "Scientific Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Satyam Theatre"
+      },
+      {
+        "type": "GVP",
+        "id": "Methodist Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Naturecure beside lane"
+      },
+      {
+        "type": "GVP",
+        "id": "SR Nagar Traffic PS"
+      },
+      {
+        "type": "GVP",
+        "id": "Mega city Toilet"
+      },
+      {
+        "type": "GVP",
+        "id": "Ameerpet 3 Idols"
+      },
+      {
+        "type": "GVP",
+        "id": "Bongula Shop"
+      },
+      {
+        "type": "GVP",
+        "id": "SS Bakery"
+      },
+      {
+        "type": "GVP",
+        "id": "SONABAI Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Shivbagh Opp School"
+      },
+      {
+        "type": "GVP",
+        "id": "Naturecure SubStation"
+      },
+      {
+        "type": "GVP",
+        "id": "Yellamma Temple Opposite"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T90",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Nagole"
+      },
+      {
+        "type": "GVP",
+        "id": "TOYOTA SHOWROOM"
+      },
+      {
+        "type": "GVP",
+        "id": "Welfare Center"
+      },
+      {
+        "type": "GVP",
+        "id": "Allauddin koti Community Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Fatehnagar Bridge"
+      },
+      {
+        "type": "GVP",
+        "id": "Allauddinkoti Railway track"
+      },
+      {
+        "type": "GVP",
+        "id": "Seven Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Dasaram Basti"
+      },
+      {
+        "type": "GVP",
+        "id": "Boring galli"
+      },
+      {
+        "type": "GVP",
+        "id": "Bhaskar Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Bharathnagar Bridge"
+      },
+      {
+        "type": "GVP",
+        "id": "GHMC Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Libary park"
+      },
+      {
+        "type": "GVP",
+        "id": "Judge house"
+      },
+      {
+        "type": "GVP",
+        "id": "Near Sai Baba temple"
+      },
+      {
+        "type": "GVP",
+        "id": "Lucky Hotel Galli"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T91",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Devender Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "[2915]- BANJARA HILLS ROAD NO 11"
+      },
+      {
+        "type": "GVP",
+        "id": "[2719] - Minister Quarters-2"
+      },
+      {
+        "type": "GVP",
+        "id": "[2719] - Minister Quarters-1"
+      },
+      {
+        "type": "GVP",
+        "id": "[1733] - ACB OFFICE"
+      },
+      {
+        "type": "GVP",
+        "id": "[1696] - SRI RAM NAGAR BASTHI"
+      },
+      {
+        "type": "GVP",
+        "id": "[1667] - WHITE HOUSE"
+      },
+      {
+        "type": "GVP",
+        "id": "Ice Cream factory Near Hetero"
+      },
+      {
+        "type": "GVP",
+        "id": "Post Office"
+      },
+      {
+        "type": "GVP",
+        "id": "Chicken Shop"
+      },
+      {
+        "type": "GVP",
+        "id": "Steel factory"
+      },
+      {
+        "type": "GVP",
+        "id": "Balkampet Transformer"
+      },
+      {
+        "type": "GVP",
+        "id": "Subhash Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Lingaiah Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Begumpet New Road"
+      },
+      {
+        "type": "GVP",
+        "id": "Sundernagar kaman"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T92",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Mallapur"
+      },
+      {
+        "type": "GVP",
+        "id": "[1551] - MP/MLA COLONY 2"
+      },
+      {
+        "type": "GVP",
+        "id": "[1550] - MP/MLA COLONY 1"
+      },
+      {
+        "type": "GVP",
+        "id": "[1415] - Sri Niketan Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "[1394] - Transformer point"
+      },
+      {
+        "type": "GVP",
+        "id": "[1122] - Round Table School"
+      },
+      {
+        "type": "GVP",
+        "id": "OPPOSITE YELLAMA TEMPLE NBT NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "SRI SAI RAM HIGH SCHOOL NBT NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "OPPOSITE  MASID NBT NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "[2917] - Jaffar khan colony gym"
+      },
+      {
+        "type": "GVP",
+        "id": "[2916]-jaffar khan colony park"
+      },
+      {
+        "type": "GVP",
+        "id": "[4691] - MLA COLONY 2"
+      },
+      {
+        "type": "GVP",
+        "id": "[4689] - MLA COLONY 1"
+      },
+      {
+        "type": "GVP",
+        "id": "[333]- NBT NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "[2920] - Ananad Banajara"
+      },
+      {
+        "type": "GVP",
+        "id": "[2919] - Musthafa Masjid l"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T93",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Saket"
+      },
+      {
+        "type": "GVP",
+        "id": "[4750] - Saraswathi school"
+      },
+      {
+        "type": "GVP",
+        "id": "[4725]-ABN 2"
+      },
+      {
+        "type": "GVP",
+        "id": "[4723] - Film nagar 6"
+      },
+      {
+        "type": "GVP",
+        "id": "[4713] - TDP BACKSIDE GALLI"
+      },
+      {
+        "type": "GVP",
+        "id": "[2682] - ANNAPURNA Studios"
+      },
+      {
+        "type": "GVP",
+        "id": "[2377] - DAIMOND HOUSE"
+      },
+      {
+        "type": "GVP",
+        "id": "[2368] - PEDDAMMA GUDE BACK SIDE"
+      },
+      {
+        "type": "GVP",
+        "id": "[2341] - DANAM NAGENDER ROAD"
+      },
+      {
+        "type": "GVP",
+        "id": "[2339] - Film Nagar 5"
+      },
+      {
+        "type": "GVP",
+        "id": "[1612] - JAI PAL REDDY HOUSE"
+      },
+      {
+        "type": "GVP",
+        "id": "[1597] - JUBILEE HILLS POST OFFICE"
+      },
+      {
+        "type": "GVP",
+        "id": "[1583] - Film nagar substation"
+      },
+      {
+        "type": "GVP",
+        "id": "[1580] - METRO STATION"
+      },
+      {
+        "type": "GVP",
+        "id": "[1575] - INDRA NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "[1570] - Durga Bhavani Nagar"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T94",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Auto Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "4818 - JOURNLIST COLONY OLD BUILDING "
+      },
+      {
+        "type": "GVP",
+        "id": "2987  - MP & MLA COLONY RANJITH REDDY POINT"
+      },
+      {
+        "type": "GVP",
+        "id": "2339 - DARGAH PARK"
+      },
+      {
+        "type": "GVP",
+        "id": "1552-Gayatri Hills"
+      },
+      {
+        "type": "GVP",
+        "id": "[892] - FILM NAGAR LABOUR ADDA"
+      },
+      {
+        "type": "GVP",
+        "id": "[878] - DARGA 1"
+      },
+      {
+        "type": "GVP",
+        "id": "[868] - ABN OFFICE"
+      },
+      {
+        "type": "GVP",
+        "id": "[847] - FILM NAGAR DIVASANIDANAM"
+      },
+      {
+        "type": "GVP",
+        "id": "[4821] - APPOLO SHOP OPP"
+      },
+      {
+        "type": "GVP",
+        "id": "[4820] - HERBAL PARK"
+      },
+      {
+        "type": "GVP",
+        "id": "[4819] - TRANSFER POINT"
+      },
+      {
+        "type": "GVP",
+        "id": "[4818] - Guru Bramha nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "[4817] - BANK OF BARODA"
+      },
+      {
+        "type": "GVP",
+        "id": "[4816] - PARUCHURI HOUSE"
+      },
+      {
+        "type": "GVP",
+        "id": "[4752] - Arora Colony"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T95",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Hasthinapuram"
+      },
+      {
+        "type": "GVP",
+        "id": "[4696] - Shaikpet Errakunta"
+      },
+      {
+        "type": "GVP",
+        "id": "[2912] - Kothacheruvu-3"
+      },
+      {
+        "type": "GVP",
+        "id": "[2912] - IAS COLONY"
+      },
+      {
+        "type": "GVP",
+        "id": "[2911] - paramount colony gate 4"
+      },
+      {
+        "type": "GVP",
+        "id": "[2908] - ADITYA NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "[2893] - NARSING MAIN ROAD"
+      },
+      {
+        "type": "GVP",
+        "id": "[2890] - OU COLONY"
+      },
+      {
+        "type": "GVP",
+        "id": "[2886] - Sai baba Temple "
+      },
+      {
+        "type": "GVP",
+        "id": "[1352] - Reliance Point"
+      },
+      {
+        "type": "GVP",
+        "id": "[1352] - Nalla Point"
+      },
+      {
+        "type": "GVP",
+        "id": "[1345] - Paramount Gate No 2"
+      },
+      {
+        "type": "GVP",
+        "id": "[1345] - Kothachervu-1"
+      },
+      {
+        "type": "GVP",
+        "id": "[1343] - Kothacheruvu-2"
+      },
+      {
+        "type": "GVP",
+        "id": "[1343] - Brindavan Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "FILM NAGAR ROAD 6 POINT"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T96",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "IBT"
+      },
+      {
+        "type": "GVP",
+        "id": "[310] - TV9 Back Side Road No 3"
+      },
+      {
+        "type": "GVP",
+        "id": "[310] - Asha Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "[304] - Banjarhills Road No 3"
+      },
+      {
+        "type": "GVP",
+        "id": "[2297] - TADAVA HIGH SCHOOL"
+      },
+      {
+        "type": "GVP",
+        "id": "[2291] - PRATAP NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "[1466]-Sumanjali Building"
+      },
+      {
+        "type": "GVP",
+        "id": "[1456]-Devara Konda Basthi Community Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "[1447] - KANAKAMMA GALLI"
+      },
+      {
+        "type": "GVP",
+        "id": "[1443]-Grave Yard Gate"
+      },
+      {
+        "type": "GVP",
+        "id": "[1406] - STUDY CIRCLE"
+      },
+      {
+        "type": "GVP",
+        "id": "[1329] - Cancer Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "PARAMOUNT GATE NO 3"
+      },
+      {
+        "type": "GVP",
+        "id": "[4726] - Kothacheruvu"
+      },
+      {
+        "type": "GVP",
+        "id": "[4707] - Toli Chowki Dosa Factory"
+      },
+      {
+        "type": "GVP",
+        "id": "[4702] - seven tombs road"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T97",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Kattedan"
+      },
+      {
+        "type": "GVP",
+        "id": "[4692] - OU Colony Nala"
+      },
+      {
+        "type": "GVP",
+        "id": "[2913] - Aditya Nagar - 94"
+      },
+      {
+        "type": "GVP",
+        "id": "[2915] - Banjarhills Rd 11"
+      },
+      {
+        "type": "GVP",
+        "id": "[1570] - LAMBADI BASTHI"
+      },
+      {
+        "type": "GVP",
+        "id": "[1466] - Suman Jalli Trendset Apartmnts"
+      },
+      {
+        "type": "GVP",
+        "id": "[1456] - BASTHI COMMUNITY HALL"
+      },
+      {
+        "type": "GVP",
+        "id": "[1323] - Rd No 3"
+      },
+      {
+        "type": "GVP",
+        "id": "[1443] - Grave yard back gate"
+      },
+      {
+        "type": "GVP",
+        "id": "Saraswati School"
+      },
+      {
+        "type": "GVP",
+        "id": "[752] - Uday nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "[748] - Madam Dabba"
+      },
+      {
+        "type": "GVP",
+        "id": "[710] - Rd No 14 ll"
+      },
+      {
+        "type": "GVP",
+        "id": "[709] - Rd No 14 l"
+      },
+      {
+        "type": "GVP",
+        "id": "[4766] - BSNL C18"
+      },
+      {
+        "type": "GVP",
+        "id": "[3742] - KABAB GALLI"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T98",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Mir Alam Tank"
+      },
+      {
+        "type": "GVP",
+        "id": "TRANSFORMER POINT "
+      },
+      {
+        "type": "GVP",
+        "id": "        VIJAYASHANTHI MLA COLONY LINE NO 6"
+      },
+      {
+        "type": "GVP",
+        "id": "          OPPOSITE VIJAYASHANTHI MLA COLONY"
+      },
+      {
+        "type": "GVP",
+        "id": "[4706] - Adhithya Park -3"
+      },
+      {
+        "type": "GVP",
+        "id": "[4705] - Adhithya Park -2"
+      },
+      {
+        "type": "GVP",
+        "id": "[4704] - Adhithya Park -1"
+      },
+      {
+        "type": "GVP",
+        "id": "[4703] - Seven Thoms Medical Shop"
+      },
+      {
+        "type": "GVP",
+        "id": "[4702] - SEVEN TOMBS RD"
+      },
+      {
+        "type": "GVP",
+        "id": "[4701] - Ramalayam"
+      },
+      {
+        "type": "GVP",
+        "id": "[4700] - Laxman Nagar -1"
+      },
+      {
+        "type": "GVP",
+        "id": "[4699] - Vinayaka Nagar Bus Stop"
+      },
+      {
+        "type": "GVP",
+        "id": "[4698] - Shaikpet Naraing Road -2"
+      },
+      {
+        "type": "GVP",
+        "id": "[4695] - Shaikpet Saibaba Tempul"
+      },
+      {
+        "type": "GVP",
+        "id": "[4694] - Shaikpet Saibaba Kaman"
+      },
+      {
+        "type": "GVP",
+        "id": "[4693] - Vinoba Nagar Pess-1"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T99",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Bandlaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "[4724] - Lorry Parking Open Plot Road No 51"
+      },
+      {
+        "type": "GVP",
+        "id": "[4723] - free bojanam rd no 52"
+      },
+      {
+        "type": "GVP",
+        "id": "[2719] - KAMALAPURI COLONY"
+      },
+      {
+        "type": "GVP",
+        "id": "[2686] - INDRA NAGAR 1"
+      },
+      {
+        "type": "GVP",
+        "id": "[2384] - GAYATRI HILLS Rd 22"
+      },
+      {
+        "type": "GVP",
+        "id": "[2381] - RD NUMBER 36"
+      },
+      {
+        "type": "GVP",
+        "id": "[2373] - JUBILEE HILLS ROAD NO 66"
+      },
+      {
+        "type": "GVP",
+        "id": "[2360] - CHUTNEY"
+      },
+      {
+        "type": "GVP",
+        "id": "[2355] - CHECK POST"
+      },
+      {
+        "type": "GVP",
+        "id": "[2340] - MARWADI GALLI"
+      },
+      {
+        "type": "GVP",
+        "id": "[2332] - Andhra Jyothi"
+      },
+      {
+        "type": "GVP",
+        "id": "[2331] - Club House"
+      },
+      {
+        "type": "GVP",
+        "id": "V6 MAIN ROAD LINE MLA COLONY "
+      },
+      {
+        "type": "GVP",
+        "id": "OPPOSITE CENTRAL BANK"
+      },
+      {
+        "type": "GVP",
+        "id": "OPPOSITE SURESH REDDY   "
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T100",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Ziyaguda"
+      },
+      {
+        "type": "GVP",
+        "id": "333-Nandinagar Bus Stop"
+      },
+      {
+        "type": "GVP",
+        "id": "[1479] - Taj Krishna Opp"
+      },
+      {
+        "type": "GVP",
+        "id": "[1475] - Coconut Point"
+      },
+      {
+        "type": "GVP",
+        "id": "[1472] - SANAGALLI"
+      },
+      {
+        "type": "GVP",
+        "id": "[1464] - Delhi Public School"
+      },
+      {
+        "type": "GVP",
+        "id": "[1443]Lamakhan"
+      },
+      {
+        "type": "GVP",
+        "id": "[1437]J.Gadda"
+      },
+      {
+        "type": "GVP",
+        "id": "[1332] - Near MLC KAVITHA Residence"
+      },
+      {
+        "type": "GVP",
+        "id": "ARVIND NAGAR KAMAN"
+      },
+      {
+        "type": "GVP",
+        "id": "AZIZ BHAGH PETREL BACK SIDE "
+      },
+      {
+        "type": "GVP",
+        "id": "2382 - BUTTERFLY PARK "
+      },
+      {
+        "type": "GVP",
+        "id": "2381 - ROAD NO 10 C WAY TO ONLINE "
+      },
+      {
+        "type": "GVP",
+        "id": "1549 - ROAD NO 10 C BUS STOP "
+      },
+      {
+        "type": "GVP",
+        "id": "2334 - PRASHASHAN NAGAR (CS  MADAM)"
+      },
+      {
+        "type": "GVP",
+        "id": "[880] - DARGA 2"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T101",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Jubilee Hills Road No 51"
+      },
+      {
+        "type": "GVP",
+        "id": "Rd No 14 ll"
+      },
+      {
+        "type": "GVP",
+        "id": "Madam Dabba"
+      },
+      {
+        "type": "GVP",
+        "id": "DARGAH PARK"
+      },
+      {
+        "type": "GVP",
+        "id": "FILM NAGAR DIVASANIDANAM"
+      },
+      {
+        "type": "GVP",
+        "id": "ABN OFFICE"
+      },
+      {
+        "type": "GVP",
+        "id": "DARGA 1"
+      },
+      {
+        "type": "GVP",
+        "id": "DARGA 2"
+      },
+      {
+        "type": "GVP",
+        "id": "FILM NAGAR LABOUR ADDA"
+      },
+      {
+        "type": "GVP",
+        "id": "Gayatri Hills"
+      },
+      {
+        "type": "GVP",
+        "id": "Nandinagar Bus Stop"
+      },
+      {
+        "type": "GVP",
+        "id": "Saraswati School"
+      },
+      {
+        "type": "GVP",
+        "id": "UdayNagar"
+      },
+      {
+        "type": "GVP",
+        "id": "[4750] - INDIAN BLOSAM SCHOOL BACK SIDE"
+      },
+      {
+        "type": "GVP",
+        "id": "Containers"
+      },
+      {
+        "type": "GVP",
+        "id": "[1492] - L v Prasad Opp"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T102",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Peoples Plaza"
+      },
+      {
+        "type": "GVP",
+        "id": "Minister Quarters-2"
+      },
+      {
+        "type": "GVP",
+        "id": "Sai baba Temple"
+      },
+      {
+        "type": "GVP",
+        "id": "OU COLONY"
+      },
+      {
+        "type": "GVP",
+        "id": "NARSING MAIN ROAD"
+      },
+      {
+        "type": "GVP",
+        "id": "ADITYA NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "paramount colony gate 4"
+      },
+      {
+        "type": "GVP",
+        "id": "SABJA COLONY"
+      },
+      {
+        "type": "GVP",
+        "id": "IAS COLONY"
+      },
+      {
+        "type": "GVP",
+        "id": "Kothacheruvu-3"
+      },
+      {
+        "type": "GVP",
+        "id": "Banjarhills Rd 11"
+      },
+      {
+        "type": "GVP",
+        "id": "jaffar khan colony park"
+      },
+      {
+        "type": "GVP",
+        "id": "Jaffar khan colony gym"
+      },
+      {
+        "type": "GVP",
+        "id": "Musthafa Masjid l"
+      },
+      {
+        "type": "GVP",
+        "id": "Ananad Banajara"
+      },
+      {
+        "type": "GVP",
+        "id": "Rd No 14 l"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T103",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Sanath Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "Andhra Jyothi"
+      },
+      {
+        "type": "GVP",
+        "id": "Film Nagar 5"
+      },
+      {
+        "type": "GVP",
+        "id": "MARWADI GALLI"
+      },
+      {
+        "type": "GVP",
+        "id": "DANAM NAGENDER ROAD"
+      },
+      {
+        "type": "GVP",
+        "id": "CHECK POST"
+      },
+      {
+        "type": "GVP",
+        "id": "CHUTNEY"
+      },
+      {
+        "type": "GVP",
+        "id": "PEDDAMMA GUDE BACK SIDE"
+      },
+      {
+        "type": "GVP",
+        "id": "JUBILEE HILLS ROAD NO 66"
+      },
+      {
+        "type": "GVP",
+        "id": "DAIMOND HOUSE"
+      },
+      {
+        "type": "GVP",
+        "id": "RD NUMBER 36"
+      },
+      {
+        "type": "GVP",
+        "id": "GAYATRI HILLS Rd 22"
+      },
+      {
+        "type": "GVP",
+        "id": "ANNAPURNA Studios"
+      },
+      {
+        "type": "GVP",
+        "id": "INDRA NAGAR 1"
+      },
+      {
+        "type": "GVP",
+        "id": "KAMALAPURI COLONY"
+      },
+      {
+        "type": "GVP",
+        "id": "Minister Quarters-1"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T104",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Chacha Nehuru Park"
+      },
+      {
+        "type": "GVP",
+        "id": "Saraswathi  School"
+      },
+      {
+        "type": "GVP",
+        "id": "Arora Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "BSNL C18"
+      },
+      {
+        "type": "GVP",
+        "id": "PARUCHURI HOUSE"
+      },
+      {
+        "type": "GVP",
+        "id": "BANK OF BARODA"
+      },
+      {
+        "type": "GVP",
+        "id": "Guru Bramha nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "TRANSFER POINT"
+      },
+      {
+        "type": "GVP",
+        "id": "APPOLO SHOP OPP"
+      },
+      {
+        "type": "GVP",
+        "id": "NBT NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "WHITE HOUSE"
+      },
+      {
+        "type": "GVP",
+        "id": "SRI RAM NAGAR BASTHI"
+      },
+      {
+        "type": "GVP",
+        "id": "ACB OFFICE"
+      },
+      {
+        "type": "GVP",
+        "id": "PRATAP NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "TADAVA HIGH SCHOOL"
+      },
+      {
+        "type": "GVP",
+        "id": "Club House"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T105",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Lalapet Flyover"
+      },
+      {
+        "type": "GVP",
+        "id": "Banjarhills Road No 3"
+      },
+      {
+        "type": "GVP",
+        "id": "Asha Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "TV9 Back Side Road No 3"
+      },
+      {
+        "type": "GVP",
+        "id": "KABAB GALLI"
+      },
+      {
+        "type": "GVP",
+        "id": "MLA COLONY 1"
+      },
+      {
+        "type": "GVP",
+        "id": "MLA COLONY 2"
+      },
+      {
+        "type": "GVP",
+        "id": "Shaikpet Errakunta"
+      },
+      {
+        "type": "GVP",
+        "id": "seven tombs road"
+      },
+      {
+        "type": "GVP",
+        "id": "Toli Chowki Dosa Factory"
+      },
+      {
+        "type": "GVP",
+        "id": "TDP BACKSIDE GALLI"
+      },
+      {
+        "type": "GVP",
+        "id": "Film nagar 6"
+      },
+      {
+        "type": "GVP",
+        "id": "free bojanam rd no 52"
+      },
+      {
+        "type": "GVP",
+        "id": "Lorry Parking Open Plot Road No 51"
+      },
+      {
+        "type": "GVP",
+        "id": "ABN 2"
+      },
+      {
+        "type": "GVP",
+        "id": "Kothacheruvu"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T106",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Jalagam Vengal Rao Park"
+      },
+      {
+        "type": "GVP",
+        "id": "amakhan"
+      },
+      {
+        "type": "GVP",
+        "id": "KANAKAMMA GALLI"
+      },
+      {
+        "type": "GVP",
+        "id": "Devara Konda Basthi Community Hall"
+      },
+      {
+        "type": "GVP",
+        "id": "Delhi Public School"
+      },
+      {
+        "type": "GVP",
+        "id": "Sumanjali Building"
+      },
+      {
+        "type": "GVP",
+        "id": "SANAGALLI"
+      },
+      {
+        "type": "GVP",
+        "id": "Coconut Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Taj Krishna Opp"
+      },
+      {
+        "type": "GVP",
+        "id": "MP/MLA COLONY 1"
+      },
+      {
+        "type": "GVP",
+        "id": "MP/MLA COLONY 2"
+      },
+      {
+        "type": "GVP",
+        "id": "Durga Bhavani Nagar"
+      },
+      {
+        "type": "GVP",
+        "id": "INDRA NAGAR"
+      },
+      {
+        "type": "GVP",
+        "id": "METRO STATION"
+      },
+      {
+        "type": "GVP",
+        "id": "Film nagar substation"
+      },
+      {
+        "type": "GVP",
+        "id": "JUBILEE HILLS POST OFFICE"
+      }
+    ],
+    "estimated_time": 330
+  },
+  {
+    "truck_id": "T107",
+    "route": [
+      {
+        "type": "SCTP",
+        "id": "Singareni Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Round  Table School"
+      },
+      {
+        "type": "GVP",
+        "id": "JAI PAL REDDY HOUSE"
+      },
+      {
+        "type": "GVP",
+        "id": "Cancer Hospital"
+      },
+      {
+        "type": "GVP",
+        "id": "Near MLC KAVITHA Residence"
+      },
+      {
+        "type": "GVP",
+        "id": "Brindavan Colony"
+      },
+      {
+        "type": "GVP",
+        "id": "Kothacheruvu-2"
+      },
+      {
+        "type": "GVP",
+        "id": "Kothachervu-1"
+      },
+      {
+        "type": "GVP",
+        "id": "Paramount Gate No 2"
+      },
+      {
+        "type": "GVP",
+        "id": "Nalla Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Reliance Point"
+      },
+      {
+        "type": "GVP",
+        "id": "Transformer point"
+      },
+      {
+        "type": "GVP",
+        "id": "STUDY CIRCLE"
+      },
+      {
+        "type": "GVP",
+        "id": "Sri Niketan Colony"
+      },
+      {
+        "type": "GVP",
+        "id": ".Gadda"
+      },
+      {
+        "type": "GVP",
+        "id": "Grave Yard Gate"
+      }
+    ],
+    "estimated_time": 330
+  }
+]

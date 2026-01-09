@@ -1,0 +1,31 @@
+{
+  "request_id": "string",
+  "timestamp": "ISO-8601",
+  "depot": {
+    "id": "SCTP_01",
+    "lat": 17.3850,
+    "lng": 78.4867
+  },
+  "gvps": [
+    {
+      "id": "GVP_12",
+      "lat": 17.3921,
+      "lng": 78.4923,
+      "waste": 320,
+      "status": "pending"
+    }
+  ],
+  "trucks": [
+    {
+      "truck_id": 0,
+      "capacity": 2000,
+      "current_lat": 17.3850,
+      "current_lng": 78.4867,
+      "status": "active"
+    }
+  ],
+  "service_time_minutes": {
+    "default": 25
+  },
+  "routing_type": "initial | reroute"
+}
