@@ -1,14 +1,16 @@
 import { Routes, Route } from "react-router-dom";
-import Dashboard from "./Components/Dashboard";
-import Reports from "./Components/Report";
-import Map from "./Components/Map";
+import Home from "./Components/Home";
+import RouteMap from "./Components/RouteMap";
+import ProofUpload from "./Components/ProofUpload";
+import Alerts from "./Components/Alerts";
 
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Dashboard />} />
-      <Route path="/reports" element={<Reports />} />
-      <Route path="/maps" element={<Map />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/map" element={<RouteMap />} />
+      <Route path="/proof" element={<ProofUpload />} />
+      <Route path="/alerts" element={<Alerts />} />
     </Routes>
   );
 }

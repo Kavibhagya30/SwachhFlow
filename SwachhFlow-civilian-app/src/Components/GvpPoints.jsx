@@ -1,5 +1,6 @@
 import { useNavigate, useLocation } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import axios from "axios";
 import "./Service.css";
 import "./GvpPoints.css";
 
@@ -10,25 +11,30 @@ export default function GvpPoints() {
   const mobile = "9876543210";
 
   const [expandedIndex, setExpandedIndex] = useState(null);
+  const [gvpPoints, setGvpPoints] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  // Mark first one as arriving, others upcoming
-  const gvpPoints = [
-    {
-      name: "GVP Point – Street 12",
-      time: "7:15 AM",
-      status: "arriving",
-    },
-    {
-      name: "GVP Point – Near Park",
-      time: "7:30 AM",
-      status: "upcoming",
-    },
-    {
-      name: "GVP Point – Community Hall",
-      time: "7:50 AM",
-      status: "upcoming",
-    },
-  ];
+  useEffect(() => {
+    fetchGvps();
+  }, []);
+
+  const fetchGvps = async () => {
+    try {
+      const res = await axios.get("http://localhost:8000/gvps");
+      // Map to UI format
+      const mapped = res.data.map(g => ({
+        name: g.gvp_name,
+        time: "10:00 AM", // Placeholder time
+        status: g.status === "VERIFIED" ? "cleared" : "pending",
+        distance: "0.5 km", // Placeholder
+        collectionType: "Community Bin"
+      }));
+      setGvpPoints(mapped);
+    } catch (e) {
+      console.error(e);
+    }
+    setLoading(false);
+  };
 
   return (
     <div className="dashboard">
@@ -60,6 +66,8 @@ export default function GvpPoints() {
       <div className="dashboard-box">
         <h3 className="service-title">Nearby GVP Points</h3>
 
+        {loading && <p>Loading points...</p>}
+
         <p className="address-info">
           Based on your location: <b>{address}</b>
         </p>
@@ -70,7 +78,7 @@ export default function GvpPoints() {
             <div key={index} className="gvp-row">
               {/* TIMELINE DOT */}
               <div className="timeline">
-                <span className="dot"></span>
+                <span className={`dot ${gvp.status === "cleared" ? "green" : "red"}`}></span>
                 {index !== gvpPoints.length - 1 && (
                   <span className="line"></span>
                 )}
@@ -78,29 +86,28 @@ export default function GvpPoints() {
 
               {/* GVP CARD */}
               <div
-                className={`gvp-details ${
-                  gvp.status === "arriving" ? "active" : ""
-                }`}
+                className={`gvp-details ${gvp.status === "cleared" ? "cleared" : ""
+                  }`}
                 onClick={() =>
                   setExpandedIndex(expandedIndex === index ? null : index)
                 }
               >
                 <div className="gvp-name">
                   {gvp.name}
-                  {gvp.status === "arriving" && (
-                    <span className="badge arriving">Arriving Soon</span>
+                  {gvp.status === "cleared" && (
+                    <span className="badge arriving" style={{ background: "green" }}>CLEARED</span>
                   )}
                 </div>
 
                 <div className="gvp-time">
-                  Truck arrives at {gvp.time}
+                  Estimated pickup: {gvp.time}
                 </div>
 
                 {/* EXPANDABLE DETAILS */}
                 {expandedIndex === index && (
                   <div className="gvp-extra">
-                    <p>Distance: {index + 1} km</p>
-                    <p>Collection Type: Door-to-door</p>
+                    <p>Distance: {gvp.distance}</p>
+                    <p>Collection Type: {gvp.collectionType}</p>
                   </div>
                 )}
               </div>

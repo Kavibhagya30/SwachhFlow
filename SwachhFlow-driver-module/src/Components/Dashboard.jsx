@@ -1,151 +1,127 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
 import "./Dashboard.css";
 
 export default function Dashboard() {
-  const [search, setSearch] = useState("");
-  const [filter, setFilter] = useState("All");
-  const [selectedGvp, setSelectedGvp] = useState(null);
+  const [route, setRoute] = useState([]);
+  const [mobile, setMobile] = useState("9999999900"); // Hardcoded driver for demo
+  const [loading, setLoading] = useState(false);
+  const [uploading, setUploading] = useState(null); // ID of GVP being uploaded
 
-  const gvpData = [
-    {
-      name: "Dammaiguda Petrol Bunk",
-      status: "Cleared",
-      problem: "Waste accumulation cleared completely. Area is clean and maintained.",
-    },
-    {
-      name: "Vampuguda Graveyard",
-      status: "Partially Cleared",
-      problem: "Plastic waste still present near the boundary wall.",
-    },
-    {
-      name: "Kandiguda Anganwadi",
-      status: "Cleared",
-      problem: "All garbage removed and sanitation completed.",
-    },
-    {
-      name: "Yellareddyguda Graveyard",
-      status: "Not Cleared",
-      problem: "Heavy dumping observed. Immediate cleaning action required.",
-    },
-    {
-      name: "Sai Puri Post Office",
-      status: "Partially Cleared",
-      problem: "Organic waste cleared, construction debris still remains.",
-    },
-  ];
+  useEffect(() => {
+    fetchRoute();
+  }, [mobile]);
 
-  const filteredData = gvpData.filter((item) => {
-    const matchesSearch = item.name.toLowerCase().includes(search.toLowerCase());
-    const matchesFilter = filter === "All" || item.status === filter;
-    return matchesSearch && matchesFilter;
-  });
-
-  const statusScore = {
-    Cleared: 100,
-    "Partially Cleared": 50,
-    "Not Cleared": 0,
+  const fetchRoute = async () => {
+    setLoading(true);
+    try {
+      // Backend expects mobile number to find assigned route
+      const res = await axios.get(`http://localhost:8000/driver/route/${mobile}`);
+      // res.data = { route_id, points: [ {type, id}, ...] }
+      if (res.data.points) {
+        setRoute(res.data.points);
+      } else {
+        setRoute([]);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+    setLoading(false);
   };
 
-  const totalScore = gvpData.reduce(
-    (sum, item) => sum + statusScore[item.status],
-    0
-  );
+  const handleUploadProof = async (item, file) => {
+    if (!file) return;
+    setUploading(item.id);
 
-  const completionPercentage = Math.round(
-    (totalScore / (gvpData.length * 100)) * 100
-  );
+    // Create form data
+    const formData = new FormData();
+    // We need GVP ID (int) from DB. But route only has "id" string (Name).
+    // The backend /gvps/verify needs gvp_id.
+    // Ideally the route JSON should contain the numeric ID.
+    // Since I can't easily change the seed json structure without re-running python logic which acts on Name...
+    // I might need to lookup GVP ID by name on backend or here.
+    // For now, I'll pass 'gvp_id' as 1 (dummy) if not found, or try to fetch full GVP list to map.
+    // BETTER: The route points in DB should have ID.
+    // Let's assume for this demo I need to fetch GVPs first to map name -> ID.
+
+    // NOTE: For now, I will send the name as metadata or just fail if ID needed?
+    // Let's fetch GVPs to find the ID.
+    try {
+      const gvpsRes = await axios.get("http://localhost:8000/gvps");
+      const found = gvpsRes.data.find(g => g.gvp_name === item.id);
+
+      if (!found) {
+        alert("GVP not found in system record!");
+        setUploading(null);
+        return;
+      }
+
+      formData.append("gvp_id", found.gvp_id);
+      formData.append("lat", found.latitude); // Simulating being at the location
+      formData.append("lng", found.longitude);
+      formData.append("file", file);
+
+      const res = await axios.post("http://localhost:8000/gvps/verify", formData, {
+        headers: { "Content-Type": "multipart/form-data" }
+      });
+
+      alert(res.data.status + ": " + res.data.reason);
+
+    } catch (e) {
+      console.error(e);
+      alert("Upload failed");
+    }
+    setUploading(null);
+  };
 
   return (
     <>
-      {/* ===== TOP NAV ===== */}
       <div className="top-nav">
         <div className="container nav-right">
-          <Link to="/reports" className="nav-link">Reports</Link>
-          
-          <Link to="/maps" className="nav-link">Maps</Link>
+          <span>Driver: {mobile}</span>
         </div>
       </div>
 
-      {/* ===== HEADER ===== */}
       <header className="main-header">
         <div className="container">
-          <h1>Greater Hyderabad Municipal Corporation</h1>
-          <h2>గ్రేటర్ హైదరాబాద్ మున్సిపల్ కార్పొరేషన్</h2>
+          <h1>GHMC Driver App</h1>
         </div>
       </header>
 
-      {/* ===== IMAGE STRIP ===== */}
-      <section className="image-strip">
-        <div className="container image-grid">
-          <img src="https://picsum.photos/400/220?1" alt="img1" />
-          <img src="https://picsum.photos/400/220?2" alt="img2" />
-          <img src="https://picsum.photos/400/220?3" alt="img3" />
-          <img src="https://picsum.photos/400/220?4" alt="img4" />
-        </div>
-      </section>
-
-      {/* ===== GVP SECTION ===== */}
       <section className="gvp-section">
-        <h2 className="gvp-title">GVP Points</h2>
+        <h2 className="gvp-title">My Assigned Route</h2>
 
-        <div className="gvp-wrapper">
-          <div className="gvp-controls">
-            <input
-              type="text"
-              placeholder="Search"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-            />
+        {loading && <p>Loading route...</p>}
 
-            <select value={filter} onChange={(e) => setFilter(e.target.value)}>
-              <option value="All">All</option>
-              <option value="Cleared">Cleared</option>
-              <option value="Partially Cleared">Partially Cleared</option>
-              <option value="Not Cleared">Not Cleared</option>
-            </select>
-          </div>
+        {!loading && route.length === 0 && <p>No active route found.</p>}
 
-          <div className="gvp-list">
-            {filteredData.map((item, index) => (
-              <div className="gvp-card" key={index}>
-                <span className="gvp-name">{item.name}</span>
+        <div className="gvp-list">
+          {route.map((item, index) => (
+            <div className="gvp-card" key={index} style={{ borderLeft: item.type === "GVP" ? "5px solid orange" : "5px solid blue" }}>
+              <span className="gvp-name">
+                {index + 1}. {item.id} <br />
+                <small>{item.type}</small>
+              </span>
 
-                <span
-                  className={`gvp-status ${item.status
-                    .toLowerCase()
-                    .replace(/\s+/g, "-")}`}
-                  onClick={() => setSelectedGvp(item)}
-                >
-                  <span className="dot"></span>
-                  {item.status}
-                </span>
-              </div>
-            ))}
-          </div>
-
-          <div className="overall-status">
-            <h3>Overall Status</h3>
-            <p>{completionPercentage}% Completed</p>
-            <div className="progress-bar">
-              <div
-                className="progress-fill"
-                style={{ width: `${completionPercentage}%` }}
-              />
+              {item.type === "GVP" && (
+                <div className="upload-section">
+                  {uploading === item.id ? (
+                    <span>Verifying...</span>
+                  ) : (
+                    <>
+                      <label className="nav-link" style={{ cursor: "pointer", background: "#f0f0f0", padding: "5px", borderRadius: "5px" }}>
+                        📷 Upload Proof
+                        <input type="file" accept="image/*" style={{ display: "none" }} onChange={(e) => handleUploadProof(item, e.target.files[0])} />
+                      </label>
+                    </>
+                  )}
+                </div>
+              )}
             </div>
-          </div>
+          ))}
         </div>
       </section>
-
-      {selectedGvp && (
-        <div className="popup-overlay" onClick={() => setSelectedGvp(null)}>
-          <div className="popup-box" onClick={(e) => e.stopPropagation()}>
-            <h3>{selectedGvp.name}</h3>
-            <p><strong>Problem:</strong><br />{selectedGvp.problem}</p>
-            <button onClick={() => setSelectedGvp(null)}>Close</button>
-          </div>
-        </div>
-      )}
     </>
   );
 }

@@ -1,31 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 import Dashboard from "./Components/Dashboard";
-<<<<<<< HEAD
 import Reports from "./Components/Report";
 import Map from "./Components/Map";
-=======
-import Service from "./Components/service";
-import Login from "./Components/LoginPage";
-import Passwordpage from "./Components/Passwordpage";
-import Locations from "./Components/Location";
-import GvpPoints from "./Components/GvpPoints";
->>>>>>> civilian-app
 
 export default function App() {
   return (
     <Routes>
-<<<<<<< HEAD
       <Route path="/" element={<Dashboard />} />
       <Route path="/reports" element={<Reports />} />
       <Route path="/maps" element={<Map />} />
-=======
-      <Route path="/" element={<Login />} />
-      <Route path="/password" element={<Passwordpage />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/services" element={<Service />} />
-      <Route path="/locations" element={<Locations />} /> {/* ✅ ADD THIS */}
-      <Route path="/gvp-points" element={<GvpPoints />} />
->>>>>>> civilian-app
     </Routes>
   );
 }
