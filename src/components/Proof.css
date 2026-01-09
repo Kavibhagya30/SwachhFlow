@@ -1,0 +1,279 @@
+/* ================= ROOT ================= */
+.proof-root {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #7fe6e3, #eaffff);
+  font-family: Arial, sans-serif;
+}
+
+/* ================= NAVBAR ================= */
+.proof-navbar {
+  height: 56px;
+  background: #5ee6eb;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: bold;
+  color: black;
+  border-bottom: 3px solid black;
+}
+
+.nav-left {
+  justify-self: start;
+}
+
+.nav-center {
+  justify-self: center;
+}
+
+.nav-right {
+  justify-self: end;
+}
+
+.profile-img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+/* ================= BODY ================= */
+.proof-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 28px;
+}
+
+/* ================= CAMERA ================= */
+.camera-card {
+  width: 230px;
+  height: 230px;
+  border-radius: 18px;
+  border: 2px solid #004aad;
+  background: linear-gradient(to bottom, #2f9df4, #a9d9ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.camera-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.camera-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.camera-icon {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.camera-icon span {
+  display: block;
+  font-size: 16px;
+  margin-top: 8px;
+  letter-spacing: 0.5px;
+}
+
+/* ================= STATUS ================= */
+.status-section {
+  text-align: center;
+}
+
+.status-section h3 {
+  margin-bottom: 14px;
+  font-size: 18px;
+  color: #004b50;
+}
+
+.status-options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ================= STATUS CARD ================= */
+.status-card {
+  width: 260px;
+  padding: 14px 22px;
+  border-radius: 32px;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  transition: all 0.25s ease;
+}
+
+.status-card:hover {
+  transform: translateY(-2px);
+}
+
+/* ACTIVE STATE */
+.status-card.active {
+  transform: scale(1.04);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
+}
+
+/* ================= DOT ================= */
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+/* COLORS */
+.green {
+  border-color: #1ea21e;
+}
+.green-dot {
+  background: #1ea21e;
+}
+
+.yellow {
+  border-color: #f4a100;
+}
+.yellow-dot {
+  background: #f4a100;
+}
+
+.red {
+  border-color: #e60000;
+}
+.red-dot {
+  background: #e60000;
+}
+
+/* ================= SUBMIT BUTTON ================= */
+.submit-btn {
+  margin-top: 18px;
+  padding: 14px 46px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  background: #b5b5b5;
+  color: #ffffff;
+  cursor: not-allowed;
+  transition: all 0.3s ease;
+}
+
+/* ENABLED STATE */
+.submit-btn:enabled {
+  background: linear-gradient(to right, #2fcdd4, #3ad5ff);
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+/* ENABLED HOVER */
+.submit-btn:enabled:hover {
+  transform: translateY(-2px);
+}
+/* REMOVE PHOTO BUTTON */
+.photo-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.remove-photo {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.remove-photo:hover {
+  background: red;
+}
+
+.status-text {
+  color: black;
+  font-weight: bold;
+}
+
+.click-photo-btn {
+  padding: 12px 32px;
+  border-radius: 28px;
+  border: none;
+  background: #2fcdd4;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* ===== POPUP MODAL ===== */
+.popup-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-box {
+  background: white;
+  padding: 26px 32px;
+  border-radius: 14px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  animation: popIn 0.25s ease;
+}
+
+.popup-box h3 {
+  margin: 0 0 10px;
+  color: #1ea21e;
+}
+
+.popup-box p {
+  margin: 0 0 18px;
+  font-size: 14px;
+  color: #444;
+}
+
+.popup-box button {
+  padding: 10px 26px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to right, #2fcdd4, #3ad5ff);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
