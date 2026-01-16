@@ -1,139 +1,144 @@
 ♻️ SwachhFlow
-
-AI-Driven Smart Waste Collection & Monitoring Platform
+Intelligent Waste Collection Routing & Monitoring Platform
 
 License: MIT
-Tech Stack: Python · OR-Tools · OpenStreetMap · Google Maps · Gemini AI · PostgreSQL · MinIO · Azure Hybrid Cloud
+Tech Stack: Python · OR-Tools · OpenStreetMap · Google Maps API · Gemini 2.0 Flash · Leaflet · MinIO · PostgreSQL
 
-“Optimizing urban cleanliness through intelligent routing, real-time tracking, and AI-verified proof systems.”
+“Optimizing urban cleanliness through intelligent routing, verification, and real-time monitoring.”
 
 📌 Overview
 
-SwachhFlow is a scalable, AI-powered municipal waste collection optimization platform designed for large urban environments like Hyderabad (GHMC).
-It intelligently plans garbage collection routes, verifies ground-level execution using AI image recognition, and provides real-time dashboards for administrators, drivers, and civilians.
+SwachhFlow is a smart municipal waste management system designed for large cities like Hyderabad.
+It optimizes garbage collection routes, verifies ground-level work using AI image analysis, and visualizes city-wide cleanliness status in real time.
 
-The system balances operational efficiency, cost reduction, and sustainability, while remaining resilient under heavy traffic through a hybrid open-source + cloud failover architecture.
+The platform combines:
 
-🌟 Key Capabilities
-🚛 Intelligent Routing (OR-Tools)
+Mathematical optimization (OR-Tools)
 
-Capacity-aware vehicle routing
+Geospatial intelligence (OSM + Google Maps)
 
-Balanced GVP (Garbage Vulnerable Point) allocation per truck
+AI verification (Gemini Vision)
 
-Time-aware routing using static traffic models
+Scalable hybrid infrastructure (Open-source + Azure failover)
 
-Start & end at SCTPs (Secondary Collection Transfer Points)
+🎯 Key Objectives
 
-Supports partial rerouting during failures
+Minimize garbage collection time and fuel usage
 
-🗺️ Real-Time Maps
+Ensure fair load distribution across trucks
 
-Drivers: Google Maps API (live traffic + navigation)
+Provide real-time visibility of GVP (Garbage Vulnerable Point) status
 
-Dashboard & Civilian View: OpenStreetMap + Leaflet
+Prevent false reporting using AI-based image verification
 
-City-wide visualization of GVPs and collection status
+Remain operational under heavy traffic via hybrid cloud failover
 
-🧠 AI Verification Engine
+🚀 Core Features
+1️⃣ Intelligent Route Optimization
 
-Gemini 2.0 Flash for image recognition
+Vehicle Routing Problem (VRP) solved using Google OR-Tools
 
-Verifies whether garbage is present in geo-tagged photos
+Constraints supported:
 
-Prevents false collection claims
+Truck capacity
 
-📸 Proof & Evidence Management
+Service time per GVP (20–25 minutes)
 
-Geo-tagged photo uploads
+SCTP (depot) start & end
 
-Stored securely using MinIO (S3-compatible storage)
+Balanced GVP distribution per truck
 
-Metadata-only AI verification (privacy-first)
+Static traffic-aware travel time using OpenStreetMap
 
-☁️ Hybrid Infrastructure (Resilience)
+2️⃣ Real-Time Driver Navigation
 
-Primary: Open-source stack (self-hosted)
+Google Maps API for drivers
 
-Fallback: Azure Cloud
+Live traffic-aware navigation
 
-Automatic failover during heavy traffic or system overload
+Route caching in driver app for low-network scenarios
 
-Seamless recovery back to open-source layer
+Geo-tagged proof capture at GVPs
 
-⚡ High-Concurrency Handling
+3️⃣ AI-Based Garbage Verification
 
-Message queues for handling simultaneous driver updates
+Uses Gemini 2.0 Flash Vision Model
 
-Caching routes on driver devices for low-network scenarios
+Verifies:
 
-🏗️ System Architecture (High-Level Flow)
+Presence of garbage in submitted images
 
-Data Ingestion
+Image authenticity with geo-tags
 
-GVPs, SCTPs, trucks loaded from structured datasets
+Prevents fake or incorrect cleanup confirmations
 
-Routing Engine
+4️⃣ City-Wide Monitoring Dashboard
 
-OR-Tools solves Vehicle Routing Problem (VRP)
+Admin dashboard with:
 
-Outputs optimized routes as JSON
+Live truck movement
 
-Driver Execution
+GVP status updates
 
-Routes cached locally
+Route progress visualization
 
-Navigation via Google Maps
+Color-coded GVP states:
 
-Proof Submission
+🔴 Pending
 
-Geo-tagged photos uploaded
+🟡 In Progress
 
-Stored in MinIO
+🟢 Cleared
 
-AI Verification
+5️⃣ Civilian Public Interface
 
-Gemini validates garbage presence
+Built using Leaflet + OpenStreetMap
 
-Dashboard Update
+Public transparency:
 
-Status reflected on live city map
+View cleanliness status
 
-Color-coded GVP states
+Track cleared vs pending GVPs
 
-Failover Handling
+Lightweight and open-source
 
-Load spike → Azure layer
+6️⃣ Hybrid Infrastructure & Failover
 
-Load normal → revert to open-source
+Primary layer: Open-source stack
 
-📂 Project Structure
-SwachhFlow/
-├── routing_engine_real.py        # Core OR-Tools routing logic
-├── traffic/
-│   ├── osm_network.py            # OSM graph loader
-│   ├── traffic_profile.py        # Static traffic model
-│   ├── map_points.py             # Geo → road node mapping
-│   └── time_matrix_traffic.py    # Travel time matrix
-├── outputs/
-│   └── routes_real.json          # Optimized routes
-├── backend/
-│   ├── ai/
-│   │   └── gemini_verifier.py    # Image verification
-│   ├── api/
-│   │   └── endpoints.py          # REST APIs
-│   └── services/
-│       ├── proof_storage.py      # MinIO integration
-│       └── queue_manager.py      # Update queues
-├── frontend/
-│   ├── dashboard/                # Admin dashboard
-│   ├── driver_app/               # Driver interface
-│   └── civilian_view/            # Public map (Leaflet)
-└── README.md
+Automatic failover to Azure during:
 
-⚙️ OR-Tools Algorithm (Used in SwachhFlow)
+High traffic
 
-SwachhFlow uses Google OR-Tools Vehicle Routing Problem (VRP) solver with:
+System overload
+
+Seamless revert when load normalizes
+
+7️⃣ Proof Storage & Auditability
+
+MinIO Object Storage
+
+Stores:
+
+Geo-tagged images
+
+Timestamped verification proofs
+
+Enables audits and dispute resolution
+
+8️⃣ High-Throughput Update Handling
+
+Queue-based architecture for:
+
+Driver updates
+
+Image verification results
+
+Prevents dashboard crashes during peak updates
+
+🧠 OR-Tools Optimization Logic
+
+SwachhFlow uses Google OR-Tools VRP Solver, which internally applies:
 
 Greedy First Solution
 
@@ -141,128 +146,106 @@ Path Cheapest Arc heuristic
 
 Constraint Modeling
 
-Vehicle capacity (bin-packing behavior)
+Capacity (bin-packing behavior)
 
 Time dimension (travel + service time)
 
 Search Optimization
 
-Branch & Bound for pruning
+Branch & Bound pruning
 
-Local search to refine solutions
+Local search refinement
 
-Scalability
+This ensures:
 
-Handles hundreds of trucks & thousands of GVPs
+Scalable routing for 1000+ GVPs
 
-Polynomial growth with heuristics
+Near-optimal solutions within seconds
 
-⏱️ Typical solve time:
+Stable performance for large city datasets
 
-100–300 nodes: seconds
+🏗️ System Architecture (High Level)
+Driver App ──► API Gateway ──► Queue Manager ──► Routing Engine (OR-Tools)
+     │                               │
+     │                               ├──► Gemini Vision (Verification)
+     │                               │
+     └──► Google Maps API            └──► MinIO (Proof Storage)
 
-1000+ nodes: minutes (configurable)
+Admin Dashboard ──► PostgreSQL ──► Live Map (OSM / Leaflet)
 
-🗄️ Database Design (PostgreSQL)
-Table 1: gvp_locations
-CREATE TABLE gvp_locations (
-  gvp_id SERIAL PRIMARY KEY,
-  name TEXT,
-  latitude DOUBLE PRECISION,
-  longitude DOUBLE PRECISION,
-  waste_estimate INT
-);
+Failover Layer ──► Azure Cloud (Auto-switch under heavy load)
 
-Table 2: truck_routes
-CREATE TABLE truck_routes (
-  truck_id TEXT,
-  route JSONB,
-  estimated_time INT,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+📂 Project Structure
+SwachhFlow/
+│
+├── routing_engine_real.py        # OR-Tools routing logic
+├── traffic/
+│   ├── osm_network.py            # OSM graph loader
+│   ├── traffic_profile.py        # Static traffic model
+│   └── time_matrix_traffic.py    # Travel time matrix
+│
+├── outputs/
+│   └── routes_real.json          # Optimized routes
+│
+├── backend/
+│   ├── ai/
+│   │   └── gemini_verifier.py    # Image verification
+│   ├── api/
+│   │   └── endpoints.py          # REST APIs
+│   ├── services/
+│   │   ├── proof_storage.py      # MinIO integration
+│   │   └── queue_manager.py      # Update queues
+│
+├── frontend/
+│   ├── dashboard/                # Admin dashboard
+│   ├── driver_app/               # Driver interface
+│   └── civilian_view/            # Public Leaflet map
+│
+└── README.md
 
-Table 3: users
-CREATE TABLE users (
-  user_id SERIAL PRIMARY KEY,
-  name TEXT,
-  mobile_number TEXT,
-  latitude DOUBLE PRECISION,
-  longitude DOUBLE PRECISION
-);
+📈 Scalability
 
-Table 4: driver_assignments
-CREATE TABLE driver_assignments (
-  truck_id TEXT,
-  driver_mobile TEXT,
-  route JSONB
-);
+Horizontally scalable routing engine
 
-🌍 External APIs Used
-Maps & Navigation
+Queue-based update ingestion
 
-Google Maps API – Driver navigation & traffic
+Stateless APIs
 
-OpenStreetMap – Base map & routing graph
+Cloud failover ready
 
-Leaflet.js – Web & civilian dashboards
+Tested for 1000+ GVPs & 100+ trucks
 
-AI & Verification
+🌍 Sustainable Development Impact
 
-Gemini 2.0 Flash – Image recognition
+SwachhFlow contributes directly to:
 
-Storage & Infra
+SDG 11: Sustainable Cities & Communities
 
-MinIO – Proof storage
+SDG 12: Responsible Consumption & Waste Management
 
-Azure Cloud – Hybrid failover
+SDG 13: Reduced emissions via optimized routing
 
-📈 Scalability & Performance
+⏱️ Performance
 
-Horizontally scalable routing service
+Route generation: Seconds to a few minutes
 
-Queue-based update handling
+AI image verification: Sub-second
 
-Stateless backend APIs
+Dashboard updates: Real-time
 
-Cache-enabled driver app
+Failover switch: Automatic
 
-Cloud failover ensures zero downtime
+🛡️ Reliability & Trust
 
-🌱 Sustainability Impact
+Geo-tagged proofs
 
-SwachhFlow directly supports:
+AI-verified cleanliness
 
-Reduced fuel consumption
+Immutable object storage
 
-Lower emissions via optimized routing
+Transparent public dashboards
 
-Transparent waste accountability
-
-Cleaner cities through verified execution
-
-Aligned with UN Sustainable Development Goals (SDG 11 & 13).
-
-📄 Sample Route Output (JSON)
-{
-  "truck_id": "TRK_12",
-  "route": [
-    { "type": "SCTP", "id": "SCTP_01" },
-    { "type": "GVP", "id": "GVP_23" },
-    { "type": "GVP", "id": "GVP_09" }
-  ],
-  "estimated_time": 215,
-  "version": 1,
-  "date": "2026-01-16"
-}
-
-🚀 Why SwachhFlow is Best-in-Class
-Feature	SwachhFlow	Traditional Systems
-Optimized Routing	✅ OR-Tools	❌ Static
-AI Proof Validation	✅ Gemini	❌ Manual
-Hybrid Resilience	✅ Azure Failover	❌ Single stack
-Real-time Maps	✅ Yes	⚠️ Partial
-Scalable	✅ High	❌ Limited
 📜 License
 
 MIT License
-Free to use, modify, and deploy.
+Open for academic, municipal, and production use.
